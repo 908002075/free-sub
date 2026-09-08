@@ -27,8 +27,11 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/security/tls",
     "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt",
     "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://ncy.760730.xyz/sub?token=5c845b95087b8f3a58e27f0775b3f454/",
+    "https://raw.githubusercontent.com/beck-8/sub-urls/refs/heads/main/sub.txt",
     "https://open.heleimail.workers.dev/",
+    "https://raw.githubusercontent.com/shuaidaoya/FreeNodes/refs/heads/main/nodes/all.yaml",
+    "https://ncy.760730.xyz/sub?token=5c845b95087b8f3a58e27f0775b3f454",
+    "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml",
     "https://www.ermao.net/sub/v2ray/ermao.net",
 ]
 
