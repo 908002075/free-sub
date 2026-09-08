@@ -5,34 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇰 DK 01 - xiaohe
-  type: vless
-  server: 95.141.241.216
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 02 - xiaohe
-  type: vless
-  server: 83.147.255.88
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 03 - xiaohe
   type: ss
   server: 38.180.214.110
   port: 5600
@@ -45,15 +17,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇩🇰 DK 01 - xiaohe
-  - 🇩🇰 DK 02 - xiaohe
-  - 🇩🇰 DK 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇩🇰 DK 01 - xiaohe
-  - 🇩🇰 DK 02 - xiaohe
-  - 🇩🇰 DK 03 - xiaohe
 rules:
 - MATCH,PROXIES
