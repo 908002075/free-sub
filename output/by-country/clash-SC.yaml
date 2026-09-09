@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 104.21.45.213
+  server: 91.188.214.126
   port: 443
-  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ez-541f9d.ezaccess1d3db24.workers.dev
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /sync
+    path: /
     headers:
-      Host: ez-541f9d.ezaccess1d3db24.workers.dev
+      Host: ncy.760730.xyz
 - name: 🇸🇨 SC 02 - xiaohe
   type: vmess
   server: 156.226.183.181
