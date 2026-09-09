@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - xiaohe
+- name: 🇵🇭 PH 01 - xiaohe
   type: vless
-  server: 160.25.74.227
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 149.104.109.17
+  port: 2087
+  uuid: 9ed3dcb3-b71a-4ae1-8210-95e33615d7e6
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /04461917b179
     headers:
-      Host: ncy.760730.xyz
+      Host: 149.104.109.17
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - xiaohe
+  - 🇵🇭 PH 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - xiaohe
+  - 🇵🇭 PH 01 - xiaohe
 rules:
 - MATCH,PROXIES
