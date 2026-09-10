@@ -6,46 +6,19 @@ log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - xiaohe
   type: vless
-  server: 94.183.170.135
+  server: 5.101.180.145
   port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 94.183.170.135
+      Host: ncy.760730.xyz
 - name: 🇪🇪 EE 02 - xiaohe
-  type: vless
-  server: 5.101.114.177
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇪🇪 EE 03 - xiaohe
-  type: vless
-  server: 5.45.118.220
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇪🇪 EE 04 - xiaohe
   type: vless
   server: 5.45.126.36
   port: 443
@@ -59,16 +32,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇪🇪 EE 05 - xiaohe
+- name: 🇪🇪 EE 03 - xiaohe
   type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  server: 5.101.114.177
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 06 - xiaohe
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇪🇪 EE 04 - xiaohe
   type: vless
   server: 94.183.170.135
   port: 443
@@ -81,7 +59,16 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
-- name: 🇪🇪 EE 07 - xiaohe
+- name: 🇪🇪 EE 05 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 06 - xiaohe
   type: vless
   server: 159.253.23.52
   port: 443
@@ -95,9 +82,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇪🇪 EE 08 - xiaohe
+- name: 🇪🇪 EE 07 - xiaohe
   type: vless
-  server: 159.253.21.82
+  server: 5.45.112.211
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -109,6 +96,15 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇪🇪 EE 08 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 09 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -120,17 +116,22 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 10 - xiaohe
   type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  server: 185.36.140.228
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇪🇪 EE 11 - xiaohe
   type: vless
-  server: 185.36.140.228
-  port: 8443
+  server: 5.45.118.220
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -157,22 +158,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇪 EE 13 - xiaohe
   type: vless
-  server: 5.101.180.145
+  server: 94.183.170.135
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ncy.760730.xyz
+      Host: 94.183.170.135
 - name: 🇪🇪 EE 14 - xiaohe
   type: vless
-  server: 5.45.112.211
-  port: 443
+  server: 185.36.140.228
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -185,8 +185,26 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇪 EE 15 - xiaohe
   type: vless
-  server: 185.36.140.228
-  port: 2053
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 16 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 17 - xiaohe
+  type: vless
+  server: 159.253.21.82
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -217,6 +235,8 @@ proxy-groups:
   - 🇪🇪 EE 13 - xiaohe
   - 🇪🇪 EE 14 - xiaohe
   - 🇪🇪 EE 15 - xiaohe
+  - 🇪🇪 EE 16 - xiaohe
+  - 🇪🇪 EE 17 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -237,5 +257,7 @@ proxy-groups:
   - 🇪🇪 EE 13 - xiaohe
   - 🇪🇪 EE 14 - xiaohe
   - 🇪🇪 EE 15 - xiaohe
+  - 🇪🇪 EE 16 - xiaohe
+  - 🇪🇪 EE 17 - xiaohe
 rules:
 - MATCH,PROXIES

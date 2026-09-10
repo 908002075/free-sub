@@ -6,6 +6,19 @@ log-level: info
 proxies:
 - name: 🇪🇬 EG 01 - xiaohe
   type: vless
+  server: 38.54.59.209
+  port: 2087
+  uuid: cd842ef8-9577-47f3-83ca-627147ed291b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /d1000b16fe76
+    headers:
+      Host: 38.54.59.209
+- name: 🇪🇬 EG 02 - xiaohe
+  type: vless
   server: 166.1.228.218
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -18,19 +31,6 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇪🇬 EG 02 - xiaohe
-  type: vless
-  server: 38.54.59.209
-  port: 2087
-  uuid: cd842ef8-9577-47f3-83ca-627147ed291b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /d1000b16fe76
-    headers:
-      Host: 38.54.59.209
 - name: 🇪🇬 EG 03 - xiaohe
   type: vless
   server: 38.54.59.209
