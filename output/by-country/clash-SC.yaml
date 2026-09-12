@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 91.188.213.107
+  server: 91.188.214.126
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇨 SC 02 - xiaohe
   type: vless
-  server: 91.188.214.126
+  server: 91.188.213.107
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
