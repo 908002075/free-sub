@@ -6,21 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 185.162.10.111
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 02 - xiaohe
-  type: vless
-  server: 185.190.250.99
+  server: 91.215.154.88
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -32,7 +18,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 03 - xiaohe
+- name: 🇧🇬 BG 02 - xiaohe
   type: vless
   server: 185.39.204.17
   port: 443
@@ -46,10 +32,24 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇧🇬 BG 03 - xiaohe
+  type: vless
+  server: 185.162.10.111
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇧🇬 BG 04 - xiaohe
   type: vless
-  server: 94.72.140.210
-  port: 443
+  server: 185.162.10.111
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -62,7 +62,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 05 - xiaohe
   type: vless
-  server: 78.128.99.216
+  server: 185.190.250.99
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 06 - xiaohe
   type: vless
-  server: 91.210.166.221
+  server: 185.219.132.27
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 07 - xiaohe
   type: vless
-  server: 91.215.153.143
+  server: 78.128.99.216
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 09 - xiaohe
   type: vless
-  server: 185.219.132.27
+  server: 91.215.153.143
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -132,7 +132,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 10 - xiaohe
   type: vless
-  server: 91.215.154.88
+  server: 94.72.140.210
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -146,8 +146,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 11 - xiaohe
   type: vless
-  server: 185.162.10.111
-  port: 8443
+  server: 91.210.166.221
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
