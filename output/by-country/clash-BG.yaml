@@ -6,34 +6,6 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 91.215.154.88
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 02 - xiaohe
-  type: vless
-  server: 185.39.204.17
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 03 - xiaohe
-  type: vless
   server: 185.162.10.111
   port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -46,6 +18,34 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇧🇬 BG 02 - xiaohe
+  type: vless
+  server: 108.165.233.223
+  port: 443
+  uuid: 2388e166-3890-33ae-f77e-efac00000003
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: netlivpn4813.ddhshhshs.workers.dev
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn4813.ddhshhshs.workers.dev
+- name: 🇧🇬 BG 03 - xiaohe
+  type: vless
+  server: 104.24.31.89
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇧🇬 BG 04 - xiaohe
   type: vless
   server: 185.162.10.111
@@ -62,7 +62,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 05 - xiaohe
   type: vless
-  server: 185.190.250.99
+  server: 91.215.153.143
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 06 - xiaohe
   type: vless
-  server: 185.219.132.27
+  server: 78.128.99.216
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 07 - xiaohe
   type: vless
-  server: 78.128.99.216
+  server: 94.72.140.210
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 09 - xiaohe
   type: vless
-  server: 91.215.153.143
+  server: 185.219.132.27
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -132,18 +132,13 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 10 - xiaohe
   type: vless
-  server: 94.72.140.210
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 11 - xiaohe
   type: vless
   server: 91.210.166.221
@@ -160,24 +155,48 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 12 - xiaohe
   type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  server: 91.215.154.88
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇧🇬 BG 13 - xiaohe
   type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  server: 185.39.204.17
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇧🇬 BG 14 - xiaohe
   type: vless
+  server: 185.190.250.99
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 15 - xiaohe
+  type: vless
   server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
@@ -185,9 +204,18 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 15 - xiaohe
+- name: 🇧🇬 BG 16 - xiaohe
   type: vless
-  server: neth9.lunariai.ru
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 17 - xiaohe
+  type: vless
+  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -214,6 +242,8 @@ proxy-groups:
   - 🇧🇬 BG 13 - xiaohe
   - 🇧🇬 BG 14 - xiaohe
   - 🇧🇬 BG 15 - xiaohe
+  - 🇧🇬 BG 16 - xiaohe
+  - 🇧🇬 BG 17 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -234,5 +264,7 @@ proxy-groups:
   - 🇧🇬 BG 13 - xiaohe
   - 🇧🇬 BG 14 - xiaohe
   - 🇧🇬 BG 15 - xiaohe
+  - 🇧🇬 BG 16 - xiaohe
+  - 🇧🇬 BG 17 - xiaohe
 rules:
 - MATCH,PROXIES
