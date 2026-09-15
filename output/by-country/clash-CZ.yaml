@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 193.124.58.60
+  server: 91.199.154.97
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
