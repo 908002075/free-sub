@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   type: vless
-  server: 188.132.183.30
+  server: 130.94.1.177
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: vless
-  server: 185.39.204.17
-  port: 443
+  server: 188.132.232.192
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,35 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   type: vless
-  server: 185.113.223.183
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  type: vless
-  server: 193.187.132.11
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  type: vless
-  server: 185.219.132.27
+  server: 188.132.183.30
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -74,7 +46,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   type: vless
   server: 212.115.103.222
   port: 8443
@@ -88,10 +60,10 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: vless
-  server: 130.94.1.177
-  port: 443
+  server: 185.113.223.183
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -102,10 +74,10 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   type: vless
-  server: 188.132.232.192
-  port: 8443
+  server: 193.187.132.11
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -127,8 +99,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -140,7 +110,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
 rules:
 - MATCH,PROXIES

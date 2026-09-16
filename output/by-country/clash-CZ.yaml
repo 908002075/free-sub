@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 46.28.70.117
+  server: 46.28.70.200
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 46.28.70.200
-  port: 443
+  server: 194.87.85.5
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 194.87.85.5
-  port: 8443
+  server: 195.123.244.20
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -62,35 +62,33 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 05 - xiaohe
   type: vless
-  server: 37.205.15.169
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 188.114.97.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ncy.760730.xyz
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇨🇿 CZ 06 - xiaohe
   type: vless
-  server: 195.123.244.230
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 172.64.53.55
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: ncy.760730.xyz
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇨🇿 CZ 07 - xiaohe
   type: vless
-  server: 185.253.46.27
+  server: 37.205.15.169
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -104,7 +102,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 08 - xiaohe
   type: vless
-  server: 195.123.244.20
+  server: 195.123.244.230
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -118,7 +116,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 09 - xiaohe
   type: vless
-  server: 62.233.57.80
+  server: 185.253.46.27
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -133,6 +131,61 @@ proxies:
 - name: 🇨🇿 CZ 10 - xiaohe
   type: vless
   server: 46.28.70.104
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 11 - xiaohe
+  type: vless
+  server: 62.233.57.80
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 12 - xiaohe
+  type: vless
+  server: 162.159.24.131
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 13 - xiaohe
+  type: vless
+  server: 141.133.175.178
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 14 - xiaohe
+  type: vless
+  server: 193.124.58.89
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -159,6 +212,10 @@ proxy-groups:
   - 🇨🇿 CZ 08 - xiaohe
   - 🇨🇿 CZ 09 - xiaohe
   - 🇨🇿 CZ 10 - xiaohe
+  - 🇨🇿 CZ 11 - xiaohe
+  - 🇨🇿 CZ 12 - xiaohe
+  - 🇨🇿 CZ 13 - xiaohe
+  - 🇨🇿 CZ 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -174,5 +231,9 @@ proxy-groups:
   - 🇨🇿 CZ 08 - xiaohe
   - 🇨🇿 CZ 09 - xiaohe
   - 🇨🇿 CZ 10 - xiaohe
+  - 🇨🇿 CZ 11 - xiaohe
+  - 🇨🇿 CZ 12 - xiaohe
+  - 🇨🇿 CZ 13 - xiaohe
+  - 🇨🇿 CZ 14 - xiaohe
 rules:
 - MATCH,PROXIES
