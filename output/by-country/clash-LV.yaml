@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: 91.197.3.7
-  port: 443
+  server: 169.40.6.227
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 02 - xiaohe
   type: vless
-  server: 169.40.6.126
-  port: 8443
+  server: 5.34.211.94
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 03 - xiaohe
   type: vless
-  server: 45.43.76.175
-  port: 443
+  server: 5.34.210.198
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -48,8 +48,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 04 - xiaohe
   type: vless
-  server: 5.34.210.198
-  port: 2053
+  server: 216.173.68.33
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -89,8 +89,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 07 - xiaohe
   type: vless
-  server: 46.32.184.118
-  port: 8443
+  server: 91.197.3.7
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -103,7 +103,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 08 - xiaohe
   type: vless
-  server: 5.34.211.94
+  server: 45.43.76.175
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -117,7 +117,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 09 - xiaohe
   type: vless
-  server: 169.40.6.227
+  server: 46.32.184.118
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -131,7 +131,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 10 - xiaohe
   type: vless
-  server: 31.57.29.13
+  server: 31.56.117.64
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -145,8 +145,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 11 - xiaohe
   type: vless
-  server: 31.56.117.64
-  port: 443
+  server: 169.40.6.126
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -159,7 +159,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 12 - xiaohe
   type: vless
-  server: 5.34.209.97
+  server: 31.57.29.13
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -173,7 +173,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇻 LV 13 - xiaohe
   type: vless
-  server: 216.173.68.33
+  server: 5.34.209.97
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true

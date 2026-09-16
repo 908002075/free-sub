@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇱🇹 LT 01 - xiaohe
   type: vless
-  server: 213.252.246.17
-  port: 8443
+  server: 89.125.248.243
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇹 LT 02 - xiaohe
   type: vless
-  server: 84.32.209.76
-  port: 443
+  server: 185.80.128.24
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇹 LT 03 - xiaohe
   type: vless
-  server: 185.80.129.84
+  server: 84.32.209.76
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -62,20 +62,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇹 LT 05 - xiaohe
   type: vless
-  server: 88.216.69.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.34.52.147
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime06.workers.dev
+      Host: ncy.760730.xyz
 - name: 🇱🇹 LT 06 - xiaohe
   type: vless
-  server: 185.80.128.24
+  server: 213.252.246.17
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -89,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇹 LT 07 - xiaohe
   type: vless
-  server: 185.80.128.80
+  server: 185.80.129.84
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -103,21 +104,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇱🇹 LT 08 - xiaohe
   type: vless
-  server: 89.125.248.243
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇱🇹 LT 09 - xiaohe
-  type: vless
-  server: 185.34.52.147
+  server: 185.80.128.80
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -142,7 +129,6 @@ proxy-groups:
   - 🇱🇹 LT 06 - xiaohe
   - 🇱🇹 LT 07 - xiaohe
   - 🇱🇹 LT 08 - xiaohe
-  - 🇱🇹 LT 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -156,6 +142,5 @@ proxy-groups:
   - 🇱🇹 LT 06 - xiaohe
   - 🇱🇹 LT 07 - xiaohe
   - 🇱🇹 LT 08 - xiaohe
-  - 🇱🇹 LT 09 - xiaohe
 rules:
 - MATCH,PROXIES
