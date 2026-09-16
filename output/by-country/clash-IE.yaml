@@ -7,7 +7,7 @@ proxies:
 - name: 🇮🇪 IE 01 - xiaohe
   type: vless
   server: 63.32.194.15
-  port: 2053
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -19,20 +19,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇮🇪 IE 02 - xiaohe
-  type: vless
-  server: 108.128.156.233
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇪 IE 03 - xiaohe
   type: vless
   server: 54.229.164.147
   port: 8443
@@ -46,10 +32,10 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇪 IE 04 - xiaohe
+- name: 🇮🇪 IE 03 - xiaohe
   type: vless
   server: 63.32.194.15
-  port: 8443
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -60,13 +46,20 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇪 IE 05 - xiaohe
-  type: ss
-  server: 94.245.88.26
+- name: 🇮🇪 IE 04 - xiaohe
+  type: vless
+  server: 108.128.156.233
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: p20Y6AFEN1pS7LJX
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,7 +69,6 @@ proxy-groups:
   - 🇮🇪 IE 02 - xiaohe
   - 🇮🇪 IE 03 - xiaohe
   - 🇮🇪 IE 04 - xiaohe
-  - 🇮🇪 IE 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -86,6 +78,5 @@ proxy-groups:
   - 🇮🇪 IE 02 - xiaohe
   - 🇮🇪 IE 03 - xiaohe
   - 🇮🇪 IE 04 - xiaohe
-  - 🇮🇪 IE 05 - xiaohe
 rules:
 - MATCH,PROXIES

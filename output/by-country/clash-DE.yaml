@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
   type: vless
-  server: 89.127.218.60
-  port: 2096
+  server: 191.40.4.107
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,21 +20,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 02 - xiaohe
   type: vless
-  server: 193.124.57.253
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 77.110.117.199
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: hub-nl-01.hanvpn.cc
   network: ws
   ws-opts:
-    path: /
+    path: /nl01-ws-8e47a
     headers:
-      Host: ncy.760730.xyz
+      Host: hub-nl-01.hanvpn.cc
 - name: 🇩🇪 德国 (Germany) 03 - xiaohe
   type: vless
-  server: 88.218.193.65
+  server: 89.58.17.201
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -48,21 +48,20 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 04 - xiaohe
   type: vless
-  server: 84.22.148.196
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /29c8fed7ca22
     headers:
-      Host: ncy.760730.xyz
+      Host: 163.8.195.241
 - name: 🇩🇪 德国 (Germany) 05 - xiaohe
   type: vless
-  server: 201.50.115.20
+  server: 193.37.71.95
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,21 +75,20 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 06 - xiaohe
   type: vless
-  server: 149.154.157.213
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /vless/
     headers:
-      Host: ncy.760730.xyz
+      Host: OV-Germany1.09vpn.com
 - name: 🇩🇪 德国 (Germany) 07 - xiaohe
   type: vless
-  server: 109.238.95.54
+  server: 88.218.193.65
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -104,7 +102,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 08 - xiaohe
   type: vless
-  server: 5.175.236.14
+  server: 2.58.65.5
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -118,8 +116,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 09 - xiaohe
   type: vless
-  server: 217.144.188.147
-  port: 8443
+  server: 90.156.208.162
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -132,7 +130,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 10 - xiaohe
   type: vless
-  server: 2.58.65.5
+  server: 201.50.115.20
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -145,124 +143,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 11 - xiaohe
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 12 - xiaohe
-  type: vless
-  server: 81.200.153.140
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 13 - xiaohe
-  type: vless
-  server: 159.195.141.56
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 14 - xiaohe
-  type: vless
-  server: 185.210.154.37
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 15 - xiaohe
-  type: vless
-  server: 77.110.110.254
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 16 - xiaohe
-  type: vless
-  server: 159.195.141.48
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 17 - xiaohe
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 18 - xiaohe
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 19 - xiaohe
-  type: vless
-  server: 77.221.159.120
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 20 - xiaohe
   type: vless
   server: 38.180.239.173
   port: 443
@@ -276,23 +156,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 21 - xiaohe
+- name: 🇩🇪 德国 (Germany) 12 - xiaohe
   type: vless
-  server: 129.151.64.169
-  port: 31867
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /files
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 22 - xiaohe
-  type: vless
-  server: 38.244.190.206
+  server: 83.147.216.31
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -304,23 +170,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 23 - xiaohe
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 24 - xiaohe
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 25 - xiaohe
+- name: 🇩🇪 德国 (Germany) 13 - xiaohe
   type: vless
-  server: 213.176.92.60
+  server: 80.85.241.70
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -332,23 +184,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 26 - xiaohe
+- name: 🇩🇪 德国 (Germany) 14 - xiaohe
   type: vless
-  server: 84.22.150.244
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 27 - xiaohe
-  type: vless
-  server: 89.127.220.232
+  server: 5.175.236.14
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -360,65 +198,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 28 - xiaohe
+- name: 🇩🇪 德国 (Germany) 15 - xiaohe
   type: vless
-  server: 82.146.38.97
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 29 - xiaohe
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 30 - xiaohe
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 31 - xiaohe
-  type: vless
-  server: 146.70.233.25
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 32 - xiaohe
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 33 - xiaohe
-  type: vless
-  server: 90.156.208.162
+  server: 185.218.19.143
   port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -430,9 +212,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 34 - xiaohe
+- name: 🇩🇪 德国 (Germany) 16 - xiaohe
   type: vless
-  server: 152.53.19.28
+  server: 185.197.74.18
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -444,82 +226,23 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 35 - xiaohe
-  type: vless
-  server: 213.193.196.244
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 36 - xiaohe
-  type: vless
-  server: 72.56.2.96
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 37 - xiaohe
+- name: 🇩🇪 德国 (Germany) 17 - xiaohe
   type: ss
-  server: 2.58.81.221
-  port: 443
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
   udp: true
-- name: 🇩🇪 德国 (Germany) 38 - xiaohe
+- name: 🇩🇪 德国 (Germany) 18 - xiaohe
+  type: ss
+  server: e2.cover20.ir
+  port: 30874
+  cipher: chacha20-ietf-poly1305
+  password: O+qLsoqVWBdY2D3lxtd5ksBwkp3QclQ6d+IARlPtFow=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 19 - xiaohe
   type: vless
-  server: 83.147.216.8
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 39 - xiaohe
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 40 - xiaohe
-  type: vless
-  server: 91.199.154.161
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 41 - xiaohe
-  type: vless
-  server: 213.193.196.15
+  server: 62.60.152.13
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -531,59 +254,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 42 - xiaohe
-  type: vless
-  server: 81.19.136.126
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 43 - xiaohe
-  type: vless
-  server: 64.118.159.108
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 44 - xiaohe
-  type: vless
-  server: 89.127.198.10
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 45 - xiaohe
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 46 - xiaohe
+- name: 🇩🇪 德国 (Germany) 20 - xiaohe
   type: vless
   server: 152.53.2.213
   port: 8443
@@ -597,7 +268,229 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 47 - xiaohe
+- name: 🇩🇪 德国 (Germany) 21 - xiaohe
+  type: vless
+  server: 89.58.61.12
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 22 - xiaohe
+  type: vless
+  server: 217.144.188.147
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 23 - xiaohe
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 24 - xiaohe
+  type: vless
+  server: 51.91.10.224
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 25 - xiaohe
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇩🇪 德国 (Germany) 26 - xiaohe
+  type: vless
+  server: 141.133.175.178
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 27 - xiaohe
+  type: vless
+  server: 89.127.198.10
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 28 - xiaohe
+  type: vless
+  server: 57.131.143.11
+  port: 2096
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 29 - xiaohe
+  type: vless
+  server: 159.195.141.48
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 30 - xiaohe
+  type: vless
+  server: 185.210.154.123
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 31 - xiaohe
+  type: vless
+  server: 81.19.136.126
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 32 - xiaohe
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 33 - xiaohe
+  type: vless
+  server: 185.210.154.37
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 34 - xiaohe
+  type: vless
+  server: 213.176.92.60
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 35 - xiaohe
+  type: vless
+  server: 91.199.160.38
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 36 - xiaohe
+  type: vmess
+  server: 82.198.246.233
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 37 - xiaohe
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: 163.8.195.241
+- name: 🇩🇪 德国 (Germany) 38 - xiaohe
   type: vless
   server: 85.192.42.198
   port: 443
@@ -611,9 +504,23 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 48 - xiaohe
+- name: 🇩🇪 德国 (Germany) 39 - xiaohe
+  type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
+- name: 🇩🇪 德国 (Germany) 40 - xiaohe
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
+- name: 🇩🇪 德国 (Germany) 41 - xiaohe
   type: vless
-  server: 5.129.241.70
+  server: 152.53.19.28
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -625,9 +532,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 49 - xiaohe
+- name: 🇩🇪 德国 (Germany) 42 - xiaohe
   type: vless
-  server: 91.186.217.148
+  server: 57.131.149.64
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -639,6 +546,76 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 43 - xiaohe
+  type: vless
+  server: 64.226.95.244
+  port: 2096
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 44 - xiaohe
+  type: ss
+  server: 130.61.35.239
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: FL7Njqx7acZnllLYPIZhRxXMtCBw8Tct6FFY7Yqd8lw=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 45 - xiaohe
+  type: vless
+  server: 83.147.216.8
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 46 - xiaohe
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 47 - xiaohe
+  type: ss
+  server: 2.58.81.221
+  port: 443
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 48 - xiaohe
+  type: vless
+  server: 72.56.2.96
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 49 - xiaohe
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
 - name: 🇩🇪 德国 (Germany) 50 - xiaohe
   type: vless
   server: 92.222.72.107
@@ -654,18 +631,15 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 51 - xiaohe
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 2.58.81.221
+  port: 443
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 52 - xiaohe
   type: vless
-  server: 62.60.228.203
+  server: 213.193.196.244
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -679,21 +653,28 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 53 - xiaohe
   type: ss
-  server: 130.61.34.119
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ltoGFoIu+Cty5VTzeTU2Hqfq0vHdWfV+kljbF+oenaw=
+  server: 193.233.209.79
+  port: 3
+  cipher: chacha20-ietf-poly1305
+  password: 9ri2bpxWs4FHXRjlhTFlQQ
   udp: true
 - name: 🇩🇪 德国 (Germany) 54 - xiaohe
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  type: vless
+  server: 38.244.190.206
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 55 - xiaohe
   type: vless
-  server: 185.210.154.123
+  server: 77.110.110.254
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -707,7 +688,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 56 - xiaohe
   type: vless
-  server: 64.226.88.144
+  server: 213.193.196.15
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -720,8 +701,15 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 57 - xiaohe
+  type: ss
+  server: 130.61.114.207
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: UcnlHOpHlHUejLfgqFfISWebKoZl4ngC58AQM/e/So0=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 58 - xiaohe
   type: vless
-  server: 109.172.8.73
+  server: 91.186.217.148
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -733,23 +721,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 58 - xiaohe
-  type: vless
-  server: rubifen.adaspoloandco.com
-  port: 443
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rubifen.adaspoloandco.com
-  network: ws
-  ws-opts:
-    path: /GOrbEh
-    headers:
-      Host: rubifen.adaspoloandco.com
 - name: 🇩🇪 德国 (Germany) 59 - xiaohe
   type: vless
-  server: 80.85.241.70
+  server: 64.118.159.108
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -763,7 +737,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 60 - xiaohe
   type: vless
-  server: 193.37.71.95
+  server: 130.17.13.115
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -777,7 +751,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇪 德国 (Germany) 61 - xiaohe
   type: vmess
-  server: 82.198.246.97
+  server: 82.198.246.250
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -786,69 +760,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 62 - xiaohe
-  type: vless
-  server: 51.91.10.224
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 63 - xiaohe
-  type: ss
-  server: 193.233.209.79
-  port: 3
-  cipher: chacha20-ietf-poly1305
-  password: 9ri2bpxWs4FHXRjlhTFlQQ
-  udp: true
-- name: 🇩🇪 德国 (Germany) 64 - xiaohe
-  type: vless
-  server: 130.17.13.115
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 65 - xiaohe
-  type: vless
-  server: 191.40.4.107
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 66 - xiaohe
-  type: vless
-  server: 46.28.70.117
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 67 - xiaohe
   type: vless
   server: 51.195.119.195
   port: 8443
@@ -862,115 +773,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 68 - xiaohe
+- name: 🇩🇪 德国 (Germany) 63 - xiaohe
   type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 69 - xiaohe
-  type: vless
-  server: 62.60.152.13
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 70 - xiaohe
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 71 - xiaohe
-  type: vless
-  server: 89.22.229.253
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 72 - xiaohe
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 73 - xiaohe
-  type: vmess
-  server: 82.198.246.233
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 74 - xiaohe
-  type: vless
-  server: 64.226.95.244
-  port: 2096
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 75 - xiaohe
-  type: vless
-  server: 185.218.19.143
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 76 - xiaohe
-  type: vless
-  server: 185.197.74.18
+  server: 84.22.150.244
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -982,73 +787,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 77 - xiaohe
-  type: ss
-  server: e2.cover20.ir
-  port: 30874
-  cipher: chacha20-ietf-poly1305
-  password: 6klqR8ozFYhzL59i8UlHB3pqy74W8tKiZ3fUHrmF0H0=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 78 - xiaohe
-  type: vless
-  server: 89.127.210.244
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 79 - xiaohe
-  type: vless
-  server: 57.131.149.64
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 80 - xiaohe
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 81 - xiaohe
-  type: ss
-  server: 8.209.74.72
-  port: 20001
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-  udp: true
-- name: 🇩🇪 德国 (Germany) 82 - xiaohe
-  type: vless
-  server: 83.147.216.31
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 83 - xiaohe
+- name: 🇩🇪 德国 (Germany) 64 - xiaohe
   type: vless
   server: 64.226.88.144
   port: 8443
@@ -1062,37 +801,232 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇪 德国 (Germany) 84 - xiaohe
-  type: ss
-  server: 2.58.81.221
+- name: 🇩🇪 德国 (Germany) 65 - xiaohe
+  type: vless
+  server: 89.127.220.232
   port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 66 - xiaohe
+  type: vless
+  server: 89.127.218.60
+  port: 2096
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 67 - xiaohe
+  type: vless
+  server: 5.129.241.70
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 68 - xiaohe
+  type: vless
+  server: 159.195.141.56
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 69 - xiaohe
+  type: vless
+  server: 64.226.88.144
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 70 - xiaohe
+  type: vless
+  server: 149.154.157.213
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 71 - xiaohe
+  type: ss
+  server: 213.202.208.199
+  port: 7001
   cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
+  password: RexnBgU7EV5ADxG
   udp: true
-- name: 🇩🇪 德国 (Germany) 85 - xiaohe
+- name: 🇩🇪 德国 (Germany) 72 - xiaohe
   type: vless
-  server: 93.152.217.41
-  port: 40443
-  uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
+  server: 89.127.210.244
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 86 - xiaohe
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 73 - xiaohe
   type: vless
-  server: 93.152.217.41
-  port: 40443
-  uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
+  server: 77.221.159.120
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
-  servername: deepl.com
-  client-fingerprint: qq
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 74 - xiaohe
+  type: vless
+  server: 89.23.115.18
+  port: 2087
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 75 - xiaohe
+  type: vless
+  server: 62.60.228.203
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 76 - xiaohe
+  type: vless
+  server: 82.24.203.20
+  port: 2087
+  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fd5ba98a3970
+    headers:
+      Host: 82.24.203.20
+- name: 🇩🇪 德国 (Germany) 77 - xiaohe
+  type: vless
+  server: 193.124.58.89
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 78 - xiaohe
+  type: vless
+  server: 84.22.148.196
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 79 - xiaohe
+  type: vless
+  server: 89.22.229.253
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇪 德国 (Germany) 80 - xiaohe
+  type: vless
+  server: rubifen.adaspoloandco.com
+  port: 443
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rubifen.adaspoloandco.com
+  network: ws
+  ws-opts:
+    path: /GOrbEh
+    headers:
+      Host: rubifen.adaspoloandco.com
+- name: 🇩🇪 德国 (Germany) 81 - xiaohe
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1179,11 +1113,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 79 - xiaohe
   - 🇩🇪 德国 (Germany) 80 - xiaohe
   - 🇩🇪 德国 (Germany) 81 - xiaohe
-  - 🇩🇪 德国 (Germany) 82 - xiaohe
-  - 🇩🇪 德国 (Germany) 83 - xiaohe
-  - 🇩🇪 德国 (Germany) 84 - xiaohe
-  - 🇩🇪 德国 (Germany) 85 - xiaohe
-  - 🇩🇪 德国 (Germany) 86 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1270,10 +1199,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 79 - xiaohe
   - 🇩🇪 德国 (Germany) 80 - xiaohe
   - 🇩🇪 德国 (Germany) 81 - xiaohe
-  - 🇩🇪 德国 (Germany) 82 - xiaohe
-  - 🇩🇪 德国 (Germany) 83 - xiaohe
-  - 🇩🇪 德国 (Germany) 84 - xiaohe
-  - 🇩🇪 德国 (Germany) 85 - xiaohe
-  - 🇩🇪 德国 (Germany) 86 - xiaohe
 rules:
 - MATCH,PROXIES
