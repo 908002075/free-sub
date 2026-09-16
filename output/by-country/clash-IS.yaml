@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇸 IS 01 - xiaohe
   type: vless
-  server: 195.162.68.79
+  server: 151.243.181.99
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
