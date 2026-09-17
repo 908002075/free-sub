@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇳🇴 NO 01 - xiaohe
   type: vless
-  server: 89.185.81.54
-  port: 443
+  server: 185.125.171.128
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,16 +20,18 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇳🇴 NO 02 - xiaohe
   type: vless
-  server: aldebaran.yokkastars.com
-  port: 40443
-  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
+  server: 194.5.98.105
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇳🇴 NO 03 - xiaohe
   type: vless
   server: 81.29.149.210
@@ -47,46 +49,6 @@ proxies:
 - name: 🇳🇴 NO 04 - xiaohe
   type: vless
   server: 194.5.98.105
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇳🇴 NO 05 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇳🇴 NO 06 - xiaohe
-  type: vless
-  server: 185.125.171.128
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇳🇴 NO 07 - xiaohe
-  type: vless
-  server: 194.5.98.105
   port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -98,7 +60,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇳🇴 NO 08 - xiaohe
+- name: 🇳🇴 NO 05 - xiaohe
   type: ss
   server: 185.213.23.63
   port: 990
@@ -115,9 +77,6 @@ proxy-groups:
   - 🇳🇴 NO 03 - xiaohe
   - 🇳🇴 NO 04 - xiaohe
   - 🇳🇴 NO 05 - xiaohe
-  - 🇳🇴 NO 06 - xiaohe
-  - 🇳🇴 NO 07 - xiaohe
-  - 🇳🇴 NO 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -128,8 +87,5 @@ proxy-groups:
   - 🇳🇴 NO 03 - xiaohe
   - 🇳🇴 NO 04 - xiaohe
   - 🇳🇴 NO 05 - xiaohe
-  - 🇳🇴 NO 06 - xiaohe
-  - 🇳🇴 NO 07 - xiaohe
-  - 🇳🇴 NO 08 - xiaohe
 rules:
 - MATCH,PROXIES
