@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaohe
   type: vless
-  server: 168.220.85.211
+  server: 202.181.177.116
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 02 - xiaohe
   type: vless
-  server: 13.63.216.71
-  port: 443
+  server: 84.32.99.175
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -33,22 +33,15 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 03 - xiaohe
-  type: vless
-  server: 62.182.193.175
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  type: ss
+  server: 51.170.179.166
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 4pGFK0x/lqudD4LJU8isjFCNxlw04AnKc72lFxetSZU=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 - name: 🇸🇪 SE 04 - xiaohe
   type: vless
-  server: 91.186.212.238
+  server: 13.62.127.104
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,7 +69,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 06 - xiaohe
   type: vless
-  server: 5.42.221.155
+  server: 212.147.224.250
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,7 +83,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 07 - xiaohe
   type: vless
-  server: 144.31.170.4
+  server: 62.182.193.175
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -104,7 +97,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 08 - xiaohe
   type: vless
-  server: 95.85.243.122
+  server: 62.182.193.220
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -118,7 +111,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 09 - xiaohe
   type: vless
-  server: 84.32.99.133
+  server: 89.35.119.210
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -146,7 +139,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 11 - xiaohe
   type: vless
-  server: 217.60.3.198
+  server: 168.220.85.211
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -160,7 +153,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 12 - xiaohe
   type: vless
-  server: 193.163.170.26
+  server: 193.233.219.205
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -174,7 +167,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 13 - xiaohe
   type: vless
-  server: 31.56.187.26
+  server: 84.32.99.133
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -188,7 +181,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 14 - xiaohe
   type: vless
-  server: 188.220.205.125
+  server: 185.130.46.91
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -202,7 +195,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 15 - xiaohe
   type: vless
-  server: 62.60.251.86
+  server: 202.181.177.8
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -216,7 +209,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 16 - xiaohe
   type: vless
-  server: 62.60.249.250
+  server: 16.171.11.113
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -230,281 +223,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇸🇪 SE 17 - xiaohe
   type: vless
-  server: 62.182.193.220
+  server: 13.63.216.71
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 18 - xiaohe
-  type: ss
-  server: 70.34.212.124
-  port: 8388
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇸🇪 SE 19 - xiaohe
-  type: vless
-  server: 84.32.99.175
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 20 - xiaohe
-  type: vless
-  server: 95.85.224.64
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 21 - xiaohe
-  type: vless
-  server: 206.223.240.239
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 22 - xiaohe
-  type: vless
-  server: 89.35.119.210
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 23 - xiaohe
-  type: vless
-  server: 202.181.177.116
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 24 - xiaohe
-  type: vless
-  server: 185.130.46.91
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 25 - xiaohe
-  type: vless
-  server: 46.8.254.63
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 26 - xiaohe
-  type: vless
-  server: 212.147.224.250
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 27 - xiaohe
-  type: vless
-  server: 185.36.140.244
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 28 - xiaohe
-  type: vless
-  server: 13.62.127.104
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 29 - xiaohe
-  type: vless
-  server: 84.32.217.120
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 30 - xiaohe
-  type: vless
-  server: 109.120.134.104
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 31 - xiaohe
-  type: vless
-  server: 202.181.177.8
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 32 - xiaohe
-  type: vless
-  server: 192.145.29.34
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 33 - xiaohe
-  type: vless
-  server: 195.123.212.222
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 34 - xiaohe
-  type: vless
-  server: 16.171.11.113
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 35 - xiaohe
-  type: vless
-  server: 46.8.254.63
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 36 - xiaohe
-  type: vless
-  server: 5.181.202.75
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇸🇪 SE 37 - xiaohe
-  type: vless
-  server: 147.45.184.140
-  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -537,26 +257,6 @@ proxy-groups:
   - 🇸🇪 SE 15 - xiaohe
   - 🇸🇪 SE 16 - xiaohe
   - 🇸🇪 SE 17 - xiaohe
-  - 🇸🇪 SE 18 - xiaohe
-  - 🇸🇪 SE 19 - xiaohe
-  - 🇸🇪 SE 20 - xiaohe
-  - 🇸🇪 SE 21 - xiaohe
-  - 🇸🇪 SE 22 - xiaohe
-  - 🇸🇪 SE 23 - xiaohe
-  - 🇸🇪 SE 24 - xiaohe
-  - 🇸🇪 SE 25 - xiaohe
-  - 🇸🇪 SE 26 - xiaohe
-  - 🇸🇪 SE 27 - xiaohe
-  - 🇸🇪 SE 28 - xiaohe
-  - 🇸🇪 SE 29 - xiaohe
-  - 🇸🇪 SE 30 - xiaohe
-  - 🇸🇪 SE 31 - xiaohe
-  - 🇸🇪 SE 32 - xiaohe
-  - 🇸🇪 SE 33 - xiaohe
-  - 🇸🇪 SE 34 - xiaohe
-  - 🇸🇪 SE 35 - xiaohe
-  - 🇸🇪 SE 36 - xiaohe
-  - 🇸🇪 SE 37 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -579,25 +279,5 @@ proxy-groups:
   - 🇸🇪 SE 15 - xiaohe
   - 🇸🇪 SE 16 - xiaohe
   - 🇸🇪 SE 17 - xiaohe
-  - 🇸🇪 SE 18 - xiaohe
-  - 🇸🇪 SE 19 - xiaohe
-  - 🇸🇪 SE 20 - xiaohe
-  - 🇸🇪 SE 21 - xiaohe
-  - 🇸🇪 SE 22 - xiaohe
-  - 🇸🇪 SE 23 - xiaohe
-  - 🇸🇪 SE 24 - xiaohe
-  - 🇸🇪 SE 25 - xiaohe
-  - 🇸🇪 SE 26 - xiaohe
-  - 🇸🇪 SE 27 - xiaohe
-  - 🇸🇪 SE 28 - xiaohe
-  - 🇸🇪 SE 29 - xiaohe
-  - 🇸🇪 SE 30 - xiaohe
-  - 🇸🇪 SE 31 - xiaohe
-  - 🇸🇪 SE 32 - xiaohe
-  - 🇸🇪 SE 33 - xiaohe
-  - 🇸🇪 SE 34 - xiaohe
-  - 🇸🇪 SE 35 - xiaohe
-  - 🇸🇪 SE 36 - xiaohe
-  - 🇸🇪 SE 37 - xiaohe
 rules:
 - MATCH,PROXIES

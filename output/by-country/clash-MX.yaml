@@ -20,20 +20,6 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇲🇽 MX 02 - xiaohe
   type: vless
-  server: 216.238.79.83
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇲🇽 MX 03 - xiaohe
-  type: vless
   server: 216.238.78.167
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -46,9 +32,23 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇲🇽 MX 04 - xiaohe
+- name: 🇲🇽 MX 03 - xiaohe
   type: vless
   server: 216.238.80.148
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇲🇽 MX 04 - xiaohe
+  type: vless
+  server: 216.238.79.83
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true

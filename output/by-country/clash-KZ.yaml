@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - xiaohe
   type: vless
-  server: 91.207.74.142
+  server: 109.248.18.121
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇿 KZ 02 - xiaohe
   type: vless
-  server: 109.248.18.147
-  port: 2053
+  server: 193.47.43.197
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇿 KZ 04 - xiaohe
   type: vless
-  server: 109.248.18.121
+  server: 5.39.253.39
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -62,20 +62,6 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇿 KZ 05 - xiaohe
   type: vless
-  server: 193.47.43.197
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 06 - xiaohe
-  type: vless
   server: 213.155.22.169
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -88,10 +74,10 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 07 - xiaohe
+- name: 🇰🇿 KZ 06 - xiaohe
   type: vless
-  server: 5.39.253.39
-  port: 443
+  server: 109.248.18.147
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -102,21 +88,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 08 - xiaohe
-  type: vless
-  server: kz3.zuoai.cf
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 09 - xiaohe
+- name: 🇰🇿 KZ 07 - xiaohe
   type: vless
   server: 109.235.116.6
   port: 443
@@ -142,8 +114,6 @@ proxy-groups:
   - 🇰🇿 KZ 05 - xiaohe
   - 🇰🇿 KZ 06 - xiaohe
   - 🇰🇿 KZ 07 - xiaohe
-  - 🇰🇿 KZ 08 - xiaohe
-  - 🇰🇿 KZ 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -156,7 +126,5 @@ proxy-groups:
   - 🇰🇿 KZ 05 - xiaohe
   - 🇰🇿 KZ 06 - xiaohe
   - 🇰🇿 KZ 07 - xiaohe
-  - 🇰🇿 KZ 08 - xiaohe
-  - 🇰🇿 KZ 09 - xiaohe
 rules:
 - MATCH,PROXIES
