@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
   type: vless
-  server: 216.238.79.164
+  server: 216.238.72.72
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇲🇽 MX 02 - xiaohe
   type: vless
-  server: 216.238.72.72
+  server: 216.238.78.167
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇲🇽 MX 05 - xiaohe
   type: vless
-  server: 216.238.78.167
+  server: 216.238.79.164
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true

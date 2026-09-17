@@ -6,6 +6,27 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
+  server: 138.16.178.169
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  type: vless
   server: 213.189.221.242
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -18,34 +39,6 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: vless
-  server: 82.146.38.97
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
   server: 5.101.50.226
@@ -62,32 +55,25 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  server: 176.32.35.44
+  port: 50111
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  type: ss
-  server: 195.58.48.137
-  port: 9019
-  cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   type: vless
-  server: 138.16.178.169
+  server: 46.8.200.91
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /
+    path: /cdn/v3/live
     headers:
-      Host: ncy.760730.xyz
+      Host: cf3.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,7 +85,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -111,6 +96,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
 rules:
 - MATCH,PROXIES
