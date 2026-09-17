@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 BE 01 - xiaohe
+- name: 🇲🇩 MD 01 - xiaohe
   type: vless
-  server: 141.227.137.177
-  port: 2053
+  server: 94.103.188.145
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -18,10 +18,10 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇪 BE 02 - xiaohe
+- name: 🇲🇩 MD 02 - xiaohe
   type: vless
-  server: 141.227.186.38
-  port: 2053
+  server: 193.36.38.17
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -37,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 BE 01 - xiaohe
-  - 🇧🇪 BE 02 - xiaohe
+  - 🇲🇩 MD 01 - xiaohe
+  - 🇲🇩 MD 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 BE 01 - xiaohe
-  - 🇧🇪 BE 02 - xiaohe
+  - 🇲🇩 MD 01 - xiaohe
+  - 🇲🇩 MD 02 - xiaohe
 rules:
 - MATCH,PROXIES

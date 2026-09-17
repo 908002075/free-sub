@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   type: vless
-  server: 123.51.23.113
+  server: 125.7.24.251
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   type: vless
-  server: 209.38.82.114
+  server: 170.64.232.210
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   type: vless
-  server: 170.64.232.210
+  server: 209.38.82.114
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
   type: vless
-  server: 125.7.24.251
+  server: 123.51.23.113
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -102,19 +102,6 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
-  type: vless
-  server: 103.75.119.126
-  port: 2087
-  uuid: 731f177e-00aa-480c-b935-661456139a32
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /7586c69d3dc9
-    headers:
-      Host: 103.75.119.126
 proxy-groups:
 - name: PROXIES
   type: select
@@ -127,7 +114,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -140,6 +126,5 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
 rules:
 - MATCH,PROXIES
