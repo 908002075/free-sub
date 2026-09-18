@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇪 IE 02 - xiaohe
   type: vless
-  server: 54.229.164.147
+  server: 63.32.194.15
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇪 IE 03 - xiaohe
   type: vless
-  server: 63.32.194.15
-  port: 2053
+  server: 54.229.164.147
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -49,7 +49,7 @@ proxies:
 - name: 🇮🇪 IE 04 - xiaohe
   type: vless
   server: 63.32.194.15
-  port: 8443
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
