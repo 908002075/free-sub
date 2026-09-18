@@ -6,34 +6,6 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - xiaohe
   type: vless
-  server: 109.248.18.21
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 02 - xiaohe
-  type: vless
-  server: 213.155.22.169
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 03 - xiaohe
-  type: vless
   server: 109.248.18.121
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -46,7 +18,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 04 - xiaohe
+- name: 🇰🇿 KZ 02 - xiaohe
+  type: vless
+  server: 193.47.43.197
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇿 KZ 03 - xiaohe
   type: vless
   server: 5.39.253.39
   port: 443
@@ -60,10 +46,24 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇰🇿 KZ 04 - xiaohe
+  type: vless
+  server: 31.43.179.36
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 05 - xiaohe
   type: vless
-  server: 193.47.43.197
-  port: 443
+  server: 109.248.18.21
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true

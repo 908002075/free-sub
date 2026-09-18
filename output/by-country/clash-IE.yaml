@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
   type: vless
-  server: 108.128.156.233
-  port: 443
+  server: 63.32.194.15
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇪 IE 02 - xiaohe
   type: vless
-  server: 63.32.194.15
-  port: 8443
+  server: 108.128.156.233
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -49,7 +49,7 @@ proxies:
 - name: 🇮🇪 IE 04 - xiaohe
   type: vless
   server: 63.32.194.15
-  port: 2053
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true

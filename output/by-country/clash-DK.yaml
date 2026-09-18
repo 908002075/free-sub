@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇩🇰 DK 01 - xiaohe
   type: vless
-  server: 45.148.30.11
-  port: 443
+  server: 195.88.89.92
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -19,76 +19,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 02 - xiaohe
-  type: vless
-  server: 84.252.138.197
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 03 - xiaohe
-  type: vless
-  server: 193.180.213.29
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 04 - xiaohe
-  type: vless
-  server: 92.113.146.87
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 05 - xiaohe
-  type: vless
-  server: 45.148.31.204
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 06 - xiaohe
-  type: vless
-  server: 193.181.213.173
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 07 - xiaohe
   type: vless
   server: 92.113.145.132
   port: 443
@@ -102,23 +32,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇰 DK 08 - xiaohe
+- name: 🇩🇰 DK 03 - xiaohe
   type: vless
-  server: 193.180.213.29
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 09 - xiaohe
-  type: vless
-  server: 195.88.89.92
+  server: 92.113.146.87
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -130,7 +46,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇰 DK 10 - xiaohe
+- name: 🇩🇰 DK 04 - xiaohe
+  type: vless
+  server: 193.180.213.29
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 05 - xiaohe
   type: vless
   server: 92.113.146.87
   port: 443
@@ -144,10 +74,17 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇰 DK 11 - xiaohe
+- name: 🇩🇰 DK 06 - xiaohe
+  type: ss
+  server: 38.180.214.110
+  port: 5600
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇩🇰 DK 07 - xiaohe
   type: vless
-  server: 92.113.150.186
-  port: 8443
+  server: 45.148.31.204
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -158,7 +95,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇰 DK 12 - xiaohe
+- name: 🇩🇰 DK 08 - xiaohe
   type: vless
   server: 89.28.236.192
   port: 8443
@@ -172,21 +109,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇰 DK 13 - xiaohe
-  type: vless
-  server: 193.181.213.53
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇩🇰 DK 14 - xiaohe
+- name: 🇩🇰 DK 09 - xiaohe
   type: vless
   server: 45.153.48.236
   port: 8443
@@ -200,9 +123,93 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇩🇰 DK 15 - xiaohe
+- name: 🇩🇰 DK 10 - xiaohe
+  type: vless
+  server: 193.181.213.53
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 11 - xiaohe
+  type: vless
+  server: 193.181.213.173
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 12 - xiaohe
+  type: vless
+  server: 84.252.138.197
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 13 - xiaohe
   type: vless
   server: 45.153.48.157
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 14 - xiaohe
+  type: vless
+  server: 92.113.150.186
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 15 - xiaohe
+  type: vless
+  server: 193.180.213.29
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇩🇰 DK 16 - xiaohe
+  type: vless
+  server: 45.148.30.11
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -234,6 +241,7 @@ proxy-groups:
   - 🇩🇰 DK 13 - xiaohe
   - 🇩🇰 DK 14 - xiaohe
   - 🇩🇰 DK 15 - xiaohe
+  - 🇩🇰 DK 16 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -254,5 +262,6 @@ proxy-groups:
   - 🇩🇰 DK 13 - xiaohe
   - 🇩🇰 DK 14 - xiaohe
   - 🇩🇰 DK 15 - xiaohe
+  - 🇩🇰 DK 16 - xiaohe
 rules:
 - MATCH,PROXIES
