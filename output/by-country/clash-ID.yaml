@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇩 ID 01 - xiaohe
   type: vless
-  server: 43.229.254.71
+  server: 15.232.155.235
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇩 ID 02 - xiaohe
   type: vless
-  server: 15.232.155.235
+  server: 43.229.254.71
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true

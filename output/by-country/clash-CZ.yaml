@@ -6,19 +6,47 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 195.85.23.252
+  server: 46.28.70.200
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 02 - xiaohe
+  type: vless
+  server: 193.124.57.253
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 03 - xiaohe
+  type: vless
+  server: 185.75.241.170
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 04 - xiaohe
   type: vless
   server: 185.253.46.27
   port: 443
@@ -32,21 +60,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 03 - xiaohe
-  type: vless
-  server: 92.61.71.90
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 04 - xiaohe
+- name: 🇨🇿 CZ 05 - xiaohe
   type: vless
   server: 46.28.70.117
   port: 443
@@ -60,77 +74,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 05 - xiaohe
-  type: vless
-  server: 91.199.154.97
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 06 - xiaohe
-  type: vless
-  server: 194.87.85.5
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 07 - xiaohe
-  type: vless
-  server: 195.85.23.75
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 08 - xiaohe
-  type: vless
-  server: 37.205.15.169
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 09 - xiaohe
-  type: vless
-  server: 62.233.57.80
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 10 - xiaohe
   type: vless
   server: 46.28.70.104
   port: 443
@@ -144,21 +88,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 11 - xiaohe
-  type: vless
-  server: 46.28.70.200
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 12 - xiaohe
+- name: 🇨🇿 CZ 07 - xiaohe
   type: vless
   server: 195.123.244.20
   port: 443
@@ -172,21 +102,63 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 13 - xiaohe
+- name: 🇨🇿 CZ 08 - xiaohe
   type: vless
-  server: 195.85.23.111
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 194.87.85.5
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 14 - xiaohe
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 09 - xiaohe
+  type: vless
+  server: 92.61.71.90
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 10 - xiaohe
+  type: vless
+  server: 37.205.15.169
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 11 - xiaohe
+  type: vless
+  server: 62.233.57.80
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 12 - xiaohe
   type: vless
   server: 195.123.244.230
   port: 443
@@ -200,20 +172,6 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 15 - xiaohe
-  type: vless
-  server: 195.85.23.88
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -231,9 +189,6 @@ proxy-groups:
   - 🇨🇿 CZ 10 - xiaohe
   - 🇨🇿 CZ 11 - xiaohe
   - 🇨🇿 CZ 12 - xiaohe
-  - 🇨🇿 CZ 13 - xiaohe
-  - 🇨🇿 CZ 14 - xiaohe
-  - 🇨🇿 CZ 15 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -251,8 +206,5 @@ proxy-groups:
   - 🇨🇿 CZ 10 - xiaohe
   - 🇨🇿 CZ 11 - xiaohe
   - 🇨🇿 CZ 12 - xiaohe
-  - 🇨🇿 CZ 13 - xiaohe
-  - 🇨🇿 CZ 14 - xiaohe
-  - 🇨🇿 CZ 15 - xiaohe
 rules:
 - MATCH,PROXIES

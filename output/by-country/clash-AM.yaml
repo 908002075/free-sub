@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇦🇲 AM 01 - xiaohe
   type: vless
-  server: 2.56.207.67
-  port: 443
+  server: 91.198.108.211
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇲 AM 02 - xiaohe
   type: vless
-  server: 91.198.108.211
-  port: 2053
+  server: 2.56.207.67
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true

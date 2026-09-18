@@ -6,33 +6,19 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: 151.101.56.6
+  server: 94.237.8.239
   port: 443
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: ncy.760730.xyz
 - name: 🇫🇮 FI 02 - xiaohe
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 03 - xiaohe
   type: vless
   server: 206.245.133.239
   port: 8443
@@ -46,49 +32,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇫🇮 FI 04 - xiaohe
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 05 - xiaohe
-  type: vless
-  server: 212.147.251.41
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇮 FI 06 - xiaohe
-  type: vless
-  server: 94.237.8.239
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇮 FI 07 - xiaohe
+- name: 🇫🇮 FI 03 - xiaohe
   type: vless
   server: 151.245.139.125
   port: 443
@@ -102,49 +46,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇫🇮 FI 08 - xiaohe
-  type: vless
-  server: 84.22.148.95
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇮 FI 09 - xiaohe
-  type: vless
-  server: 192.145.29.34
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇮 FI 10 - xiaohe
-  type: vless
-  server: 82.40.57.175
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇮 FI 11 - xiaohe
+- name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: 94.237.105.60
   port: 8443
@@ -158,20 +60,6 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇫🇮 FI 12 - xiaohe
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -181,14 +69,6 @@ proxy-groups:
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
   - 🇫🇮 FI 04 - xiaohe
-  - 🇫🇮 FI 05 - xiaohe
-  - 🇫🇮 FI 06 - xiaohe
-  - 🇫🇮 FI 07 - xiaohe
-  - 🇫🇮 FI 08 - xiaohe
-  - 🇫🇮 FI 09 - xiaohe
-  - 🇫🇮 FI 10 - xiaohe
-  - 🇫🇮 FI 11 - xiaohe
-  - 🇫🇮 FI 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -198,13 +78,5 @@ proxy-groups:
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
   - 🇫🇮 FI 04 - xiaohe
-  - 🇫🇮 FI 05 - xiaohe
-  - 🇫🇮 FI 06 - xiaohe
-  - 🇫🇮 FI 07 - xiaohe
-  - 🇫🇮 FI 08 - xiaohe
-  - 🇫🇮 FI 09 - xiaohe
-  - 🇫🇮 FI 10 - xiaohe
-  - 🇫🇮 FI 11 - xiaohe
-  - 🇫🇮 FI 12 - xiaohe
 rules:
 - MATCH,PROXIES
