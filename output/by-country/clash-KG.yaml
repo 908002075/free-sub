@@ -7,7 +7,7 @@ proxies:
 - name: 🇰🇬 KG 01 - xiaohe
   type: vless
   server: 188.240.213.98
-  port: 8443
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -21,7 +21,7 @@ proxies:
 - name: 🇰🇬 KG 02 - xiaohe
   type: vless
   server: 188.240.213.98
-  port: 2053
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
