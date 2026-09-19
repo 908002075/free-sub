@@ -46,7 +46,7 @@ proxies:
   client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   type: vless
-  server: 123.51.23.113
+  server: 206.168.133.137
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -60,15 +60,6 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   type: vless
-  server: 172.105.169.70
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 172.105.169.70
-- name: 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
-  type: vless
   server: 103.75.119.126
   port: 2087
   uuid: 731f177e-00aa-480c-b935-661456139a32
@@ -80,35 +71,31 @@ proxies:
     path: /7586c69d3dc9
     headers:
       Host: 103.75.119.126
+- name: 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
   type: vless
-  server: 170.64.237.192
+  server: 34.87.229.148
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: 4f865f35-cf47-4e7f-a7e6-8882511a1b36
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
-  type: vless
-  server: 160.187.110.199
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
   type: vless
   server: 170.64.232.210
   port: 443
@@ -122,9 +109,23 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
+  type: vless
+  server: 160.187.110.199
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 10 - xiaohe
   type: vless
-  server: 176.97.68.17
+  server: 123.51.23.113
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -138,19 +139,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 11 - xiaohe
   type: vless
-  server: 34.87.244.111
-  port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
-  type: vless
-  server: 206.168.133.137
+  server: 176.97.68.17
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -162,6 +151,56 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇦🇺 澳大利亚 (Australia) 13 - xiaohe
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇦🇺 澳大利亚 (Australia) 14 - xiaohe
+  type: vless
+  server: 170.64.237.192
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇺 澳大利亚 (Australia) 15 - xiaohe
+  type: vless
+  server: 34.87.229.148
+  port: 443
+  uuid: 4f865f35-cf47-4e7f-a7e6-8882511a1b36
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -179,6 +218,9 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 10 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 11 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 13 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 14 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 15 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -196,5 +238,8 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 10 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 11 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 13 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 14 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 15 - xiaohe
 rules:
 - MATCH,PROXIES

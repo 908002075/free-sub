@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
   type: vless
-  server: 31.57.190.71
+  server: 31.57.190.96
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
   type: vless
-  server: 31.57.190.47
+  server: 31.57.190.61
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
   type: vless
-  server: 195.133.92.20
+  server: 5.22.218.163
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -48,19 +48,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 04 - xiaohe
   type: vless
-  server: 212.227.235.66
-  port: 2053
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  server: 31.57.190.85
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-  servername: www.apple.com
-  client-fingerprint: random
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
   type: vless
-  server: 31.57.190.49
+  server: 195.133.92.20
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -74,7 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
   type: vless
-  server: 179.255.189.17
+  server: 195.133.92.74
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -88,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 07 - xiaohe
   type: vless
-  server: 31.57.190.54
+  server: 31.57.190.71
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -102,16 +104,18 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 08 - xiaohe
   type: vless
-  server: 212.227.235.66
-  port: 2053
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  server: 179.255.189.17
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 09 - xiaohe
   type: vless
   server: 31.57.190.24
@@ -142,21 +146,19 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 11 - xiaohe
   type: vless
-  server: 194.154.28.227
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 212.227.235.66
+  port: 2053
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 12 - xiaohe
   type: vless
-  server: 5.22.218.163
+  server: 31.57.190.58
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -170,7 +172,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 13 - xiaohe
   type: vless
-  server: 195.133.92.74
+  server: 31.57.190.54
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -184,7 +186,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 14 - xiaohe
   type: vless
-  server: 31.57.190.69
+  server: 31.57.190.62
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -212,7 +214,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 16 - xiaohe
   type: vless
-  server: 31.57.190.58
+  server: 31.57.190.27
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -226,7 +228,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 17 - xiaohe
   type: vless
-  server: 31.57.190.96
+  server: 31.57.190.69
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -254,35 +256,33 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 19 - xiaohe
   type: vless
-  server: 31.57.190.61
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 212.227.235.66
+  port: 2053
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 20 - xiaohe
   type: vless
-  server: 31.57.190.85
+  server: 104.18.32.252
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: eb9a7750.69lover.site
   network: ws
   ws-opts:
-    path: /
+    path: /api/v2/4ecb1e0e26887759/stream
     headers:
-      Host: ncy.760730.xyz
+      Host: eb9a7750.69lover.site
 - name: 🇪🇸 西班牙 (Spain) 21 - xiaohe
   type: vless
-  server: 31.57.190.82
+  server: 194.154.28.227
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -296,18 +296,16 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 22 - xiaohe
   type: vless
-  server: 31.57.190.62
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 212.227.235.66
+  port: 2053
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇪🇸 西班牙 (Spain) 23 - xiaohe
   type: vless
   server: 31.57.190.88
@@ -324,7 +322,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇪🇸 西班牙 (Spain) 24 - xiaohe
   type: vless
-  server: 31.57.190.27
+  server: 31.57.190.82
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇪🇸 西班牙 (Spain) 25 - xiaohe
+  type: vless
+  server: 31.57.190.47
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -365,6 +377,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 22 - xiaohe
   - 🇪🇸 西班牙 (Spain) 23 - xiaohe
   - 🇪🇸 西班牙 (Spain) 24 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 25 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -394,5 +407,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 22 - xiaohe
   - 🇪🇸 西班牙 (Spain) 23 - xiaohe
   - 🇪🇸 西班牙 (Spain) 24 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 25 - xiaohe
 rules:
 - MATCH,PROXIES
