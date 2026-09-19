@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇩🇰 DK 01 - xiaohe
   type: vless
-  server: 45.148.30.11
+  server: 77.37.96.186
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 02 - xiaohe
   type: vless
-  server: 45.148.31.204
-  port: 443
+  server: 195.88.89.92
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 03 - xiaohe
   type: vless
-  server: 92.113.146.87
-  port: 443
+  server: 45.153.48.236
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 04 - xiaohe
   type: vless
-  server: 45.153.48.157
+  server: 45.148.31.204
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,8 +76,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 06 - xiaohe
   type: vless
-  server: 45.153.48.236
-  port: 8443
+  server: 92.113.146.87
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -104,7 +104,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 08 - xiaohe
   type: vless
-  server: 92.113.145.132
+  server: 45.148.30.11
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 09 - xiaohe
   type: vless
-  server: 77.37.96.186
+  server: 92.113.145.132
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -132,8 +132,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇩🇰 DK 10 - xiaohe
   type: vless
-  server: 195.88.89.92
-  port: 8443
+  server: 45.153.48.157
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true

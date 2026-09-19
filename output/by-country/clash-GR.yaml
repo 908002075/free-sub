@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇬🇷 GR 01 - xiaohe
   type: vless
-  server: 85.90.197.159
+  server: 85.90.197.156
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 02 - xiaohe
   type: vless
-  server: 91.250.248.68
+  server: 85.90.197.158
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 03 - xiaohe
   type: vless
-  server: 85.90.197.53
+  server: 85.90.197.157
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 04 - xiaohe
   type: vless
-  server: 91.250.248.223
+  server: 85.90.197.159
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 05 - xiaohe
   type: vless
-  server: 85.90.197.158
+  server: 91.250.248.68
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 06 - xiaohe
   type: vless
-  server: 45.10.190.30
+  server: 91.250.248.223
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 07 - xiaohe
   type: vless
-  server: 85.90.197.156
+  server: 85.90.197.53
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -104,7 +104,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇬🇷 GR 08 - xiaohe
   type: vless
-  server: 85.90.197.157
+  server: 130.94.58.215
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇷 GR 09 - xiaohe
+  type: vless
+  server: 45.10.190.30
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -129,6 +143,7 @@ proxy-groups:
   - 🇬🇷 GR 06 - xiaohe
   - 🇬🇷 GR 07 - xiaohe
   - 🇬🇷 GR 08 - xiaohe
+  - 🇬🇷 GR 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -142,5 +157,6 @@ proxy-groups:
   - 🇬🇷 GR 06 - xiaohe
   - 🇬🇷 GR 07 - xiaohe
   - 🇬🇷 GR 08 - xiaohe
+  - 🇬🇷 GR 09 - xiaohe
 rules:
 - MATCH,PROXIES

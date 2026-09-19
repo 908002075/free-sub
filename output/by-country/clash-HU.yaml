@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇭🇺 HU 01 - xiaohe
   type: vless
-  server: 38.180.225.247
-  port: 2053
+  server: 38.180.109.174
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇭🇺 HU 02 - xiaohe
   type: vless
-  server: 37.221.210.113
-  port: 8443
+  server: 38.180.225.247
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇭🇺 HU 03 - xiaohe
   type: vless
-  server: 38.180.109.174
-  port: 443
+  server: 37.221.210.113
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
