@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
   type: vless
-  server: 89.127.196.14
+  server: 199.68.196.28
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 02 - xiaohe
   type: vless
-  server: 141.227.149.235
-  port: 2053
+  server: 107.189.2.206
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 03 - xiaohe
   type: vless
-  server: 185.195.69.64
+  server: 179.255.191.89
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 04 - xiaohe
   type: vless
-  server: 141.227.149.108
+  server: 91.192.102.55
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 05 - xiaohe
   type: vless
-  server: 38.180.161.128
+  server: 51.91.78.12
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 06 - xiaohe
   type: vless
-  server: 194.246.118.199
+  server: 185.195.69.64
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,35 +90,35 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 07 - xiaohe
   type: vless
-  server: 104.18.28.234
+  server: 38.180.85.203
   port: 443
-  uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: netlivpn5505.ffffdsaaa.workers.dev
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: netlivpn5505.ffffdsaaa.workers.dev
+      Host: ncy.760730.xyz
 - name: 🇨🇭 CH 08 - xiaohe
   type: vless
-  server: 104.18.28.234
+  server: 57.129.4.92
   port: 443
-  uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: netlivpn5505.ffffdsaaa.workers.dev
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: netlivpn5505.ffffdsaaa.workers.dev
+      Host: ncy.760730.xyz
 - name: 🇨🇭 CH 09 - xiaohe
   type: vless
-  server: 194.154.29.164
+  server: 176.10.125.114
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -132,8 +132,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 10 - xiaohe
   type: vless
-  server: 185.195.69.158
-  port: 443
+  server: 141.227.149.235
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -145,75 +145,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇨🇭 CH 11 - xiaohe
-  type: vless
-  server: 89.127.196.31
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇭 CH 12 - xiaohe
-  type: vless
-  server: 185.195.69.72
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇭 CH 13 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    headers:
-      Host: netlivpn2950.bbxff.workers.dev
-- name: 🇨🇭 CH 14 - xiaohe
-  type: vless
-  server: 91.192.102.219
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇭 CH 15 - xiaohe
-  type: vless
-  server: 194.154.29.81
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇭 CH 16 - xiaohe
   type: vless
   server: 141.227.139.175
   port: 443
@@ -227,7 +158,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇭 CH 17 - xiaohe
+- name: 🇨🇭 CH 12 - xiaohe
+  type: vless
+  server: 141.227.151.68
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇭 CH 13 - xiaohe
   type: vless
   server: 107.189.7.124
   port: 2053
@@ -241,9 +186,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇭 CH 18 - xiaohe
+- name: 🇨🇭 CH 14 - xiaohe
   type: vless
-  server: 194.154.29.139
+  server: 185.195.69.200
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -255,7 +200,35 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇨🇭 CH 19 - xiaohe
+- name: 🇨🇭 CH 15 - xiaohe
+  type: vless
+  server: 185.195.69.72
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇭 CH 16 - xiaohe
+  type: vless
+  server: 140.238.214.95
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇭 CH 17 - xiaohe
   type: vless
   server: 179.43.156.121
   port: 443
@@ -269,61 +242,37 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇨🇭 CH 18 - xiaohe
+  type: vless
+  server: 91.192.102.219
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇭 CH 19 - xiaohe
+  type: vless
+  server: 89.127.196.31
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇨🇭 CH 20 - xiaohe
   type: vless
-  server: 34.158.23.115
-  port: 443
-  uuid: a18f08dc-76ae-453a-98f5-d41eab7e649b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: f8aV8naD8NKt_mLKaOou0qUrIM1Ge25kJNxywpF3OB0
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇨🇭 CH 21 - xiaohe
-  type: vless
-  server: 45.95.232.18
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇭 CH 22 - xiaohe
-  type: vless
-  server: 107.189.2.206
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇭 CH 23 - xiaohe
-  type: vless
-  server: 34.158.23.115
-  port: 443
-  uuid: a18f08dc-76ae-453a-98f5-d41eab7e649b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: f8aV8naD8NKt_mLKaOou0qUrIM1Ge25kJNxywpF3OB0
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇨🇭 CH 24 - xiaohe
-  type: vless
-  server: 91.192.102.55
+  server: 194.154.29.81
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -360,10 +309,6 @@ proxy-groups:
   - 🇨🇭 CH 18 - xiaohe
   - 🇨🇭 CH 19 - xiaohe
   - 🇨🇭 CH 20 - xiaohe
-  - 🇨🇭 CH 21 - xiaohe
-  - 🇨🇭 CH 22 - xiaohe
-  - 🇨🇭 CH 23 - xiaohe
-  - 🇨🇭 CH 24 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -389,9 +334,5 @@ proxy-groups:
   - 🇨🇭 CH 18 - xiaohe
   - 🇨🇭 CH 19 - xiaohe
   - 🇨🇭 CH 20 - xiaohe
-  - 🇨🇭 CH 21 - xiaohe
-  - 🇨🇭 CH 22 - xiaohe
-  - 🇨🇭 CH 23 - xiaohe
-  - 🇨🇭 CH 24 - xiaohe
 rules:
 - MATCH,PROXIES

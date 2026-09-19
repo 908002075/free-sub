@@ -13,7 +13,7 @@ proxies:
   udp: true
 - name: 🇮🇩 ID 02 - xiaohe
   type: vless
-  server: 15.232.155.235
+  server: 43.229.254.71
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇩 ID 03 - xiaohe
   type: vless
-  server: 43.229.254.71
+  server: 172.232.236.252
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true

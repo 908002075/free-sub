@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
   type: vless
-  server: 216.238.79.164
+  server: 216.238.72.72
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,21 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇲🇽 MX 02 - xiaohe
   type: vless
-  server: 216.238.80.148
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇲🇽 MX 03 - xiaohe
-  type: vless
-  server: 216.238.72.72
+  server: 216.238.79.164
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -46,21 +32,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇲🇽 MX 04 - xiaohe
-  type: vless
-  server: 216.238.79.83
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇲🇽 MX 05 - xiaohe
+- name: 🇲🇽 MX 03 - xiaohe
   type: vless
   server: 216.238.78.167
   port: 443
@@ -82,8 +54,6 @@ proxy-groups:
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
   - 🇲🇽 MX 03 - xiaohe
-  - 🇲🇽 MX 04 - xiaohe
-  - 🇲🇽 MX 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,7 +62,5 @@ proxy-groups:
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
   - 🇲🇽 MX 03 - xiaohe
-  - 🇲🇽 MX 04 - xiaohe
-  - 🇲🇽 MX 05 - xiaohe
 rules:
 - MATCH,PROXIES

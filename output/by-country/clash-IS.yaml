@@ -6,8 +6,22 @@ log-level: info
 proxies:
 - name: 🇮🇸 IS 01 - xiaohe
   type: vless
-  server: 151.243.181.99
+  server: 195.162.68.79
   port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇸 IS 02 - xiaohe
+  type: vless
+  server: 194.247.182.120
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -24,11 +38,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇸 IS 01 - xiaohe
+  - 🇮🇸 IS 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇸 IS 01 - xiaohe
+  - 🇮🇸 IS 02 - xiaohe
 rules:
 - MATCH,PROXIES

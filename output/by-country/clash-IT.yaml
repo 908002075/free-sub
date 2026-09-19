@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - xiaohe
   type: vless
-  server: 172.232.212.218
+  server: 113.30.151.151
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 02 - xiaohe
   type: vless
-  server: 179.255.190.4
-  port: 443
+  server: 57.131.32.25
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 03 - xiaohe
   type: vless
-  server: 185.47.172.172
+  server: 151.241.215.143
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -47,37 +47,23 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 04 - xiaohe
-  type: vless
-  server: 179.255.190.3
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 05 - xiaohe
-  type: vless
-  server: 89.185.82.188
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  type: ss
+  server: 57.131.48.45
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 06 - xiaohe
   type: vless
-  server: 172.238.238.203
-  port: 2053
+  server: 185.47.172.172
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -97,16 +83,9 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇮🇹 意大利 (Italy) 08 - xiaohe
-  type: ss
-  server: 57.131.48.45
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 09 - xiaohe
   type: vless
-  server: 57.131.32.25
-  port: 2053
+  server: 89.185.82.188
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -117,7 +96,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇹 意大利 (Italy) 10 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 09 - xiaohe
   type: vless
   server: 179.255.190.21
   port: 443
@@ -131,24 +110,38 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇹 意大利 (Italy) 11 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 10 - xiaohe
   type: vless
-  server: 158.180.231.216
+  server: 179.255.190.3
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /vws/
+    path: /
     headers:
-      Host: bab-6.site
+      Host: ncy.760730.xyz
+- name: 🇮🇹 意大利 (Italy) 11 - xiaohe
+  type: vless
+  server: 66.245.204.103
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 12 - xiaohe
   type: vless
-  server: 113.30.151.151
-  port: 8443
+  server: 45.147.250.39
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -160,12 +153,89 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇮🇹 意大利 (Italy) 13 - xiaohe
-  type: ss
-  server: 185.164.175.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  server: 5.249.148.85
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇹 意大利 (Italy) 14 - xiaohe
+  type: vless
+  server: 80.211.238.227
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇹 意大利 (Italy) 15 - xiaohe
+  type: vless
+  server: 179.255.190.5
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇹 意大利 (Italy) 16 - xiaohe
+  type: vless
+  server: 179.255.190.24
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇹 意大利 (Italy) 17 - xiaohe
+  type: vless
+  server: 179.255.190.4
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇹 意大利 (Italy) 18 - xiaohe
+  type: vless
+  server: 80.211.24.43
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -184,6 +254,11 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 11 - xiaohe
   - 🇮🇹 意大利 (Italy) 12 - xiaohe
   - 🇮🇹 意大利 (Italy) 13 - xiaohe
+  - 🇮🇹 意大利 (Italy) 14 - xiaohe
+  - 🇮🇹 意大利 (Italy) 15 - xiaohe
+  - 🇮🇹 意大利 (Italy) 16 - xiaohe
+  - 🇮🇹 意大利 (Italy) 17 - xiaohe
+  - 🇮🇹 意大利 (Italy) 18 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -202,5 +277,10 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 11 - xiaohe
   - 🇮🇹 意大利 (Italy) 12 - xiaohe
   - 🇮🇹 意大利 (Italy) 13 - xiaohe
+  - 🇮🇹 意大利 (Italy) 14 - xiaohe
+  - 🇮🇹 意大利 (Italy) 15 - xiaohe
+  - 🇮🇹 意大利 (Italy) 16 - xiaohe
+  - 🇮🇹 意大利 (Italy) 17 - xiaohe
+  - 🇮🇹 意大利 (Italy) 18 - xiaohe
 rules:
 - MATCH,PROXIES

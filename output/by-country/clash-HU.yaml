@@ -18,17 +18,49 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇭🇺 HU 02 - xiaohe
+  type: vless
+  server: 37.221.210.113
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇭🇺 HU 03 - xiaohe
+  type: vless
+  server: 38.180.109.174
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇭🇺 HU 01 - xiaohe
+  - 🇭🇺 HU 02 - xiaohe
+  - 🇭🇺 HU 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇭🇺 HU 01 - xiaohe
+  - 🇭🇺 HU 02 - xiaohe
+  - 🇭🇺 HU 03 - xiaohe
 rules:
 - MATCH,PROXIES

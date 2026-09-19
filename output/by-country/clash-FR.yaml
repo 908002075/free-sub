@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - xiaohe
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 31.58.76.68
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /vws/
+    path: /
     headers:
-      Host: 149.202.58.99
+      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 02 - xiaohe
   type: vless
-  server: 46.8.224.102
+  server: 45.39.255.27
   port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 03 - xiaohe
   type: vless
-  server: 31.56.228.250
-  port: 2053
+  server: 13.37.29.92
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -48,22 +48,22 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 04 - xiaohe
   type: vless
-  server: 104.18.31.37
+  server: 31.56.176.239
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5bc7860646e4
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: qzz0a4eou1ms.mlm-792d0942.workers.dev
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/5bc7860646e4
+    path: /
     headers:
-      Host: qzz0a4eou1ms.mlm-792d0942.workers.dev
+      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 05 - xiaohe
   type: vless
-  server: 95.182.81.172
-  port: 443
+  server: 31.57.109.126
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -76,19 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 06 - xiaohe
   type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 07 - xiaohe
-  type: vless
-  server: 94.183.187.80
+  server: 94.183.188.21
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -100,9 +88,20 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇫🇷 法国 (France) 07 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
 - name: 🇫🇷 法国 (France) 08 - xiaohe
   type: vless
-  server: 95.182.87.155
+  server: 217.60.39.39
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -116,36 +115,34 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 09 - xiaohe
   type: vless
-  server: 31.58.76.27
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /
+    path: /vws/
     headers:
-      Host: ncy.760730.xyz
+      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 10 - xiaohe
   type: vless
-  server: 31.57.108.170
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 11 - xiaohe
   type: vless
-  server: 188.130.207.30
-  port: 2053
+  server: 94.183.187.80
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -158,28 +155,35 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 12 - xiaohe
   type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  server: 217.60.63.233
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 13 - xiaohe
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
+  type: vless
+  server: 45.39.255.211
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 14 - xiaohe
   type: vless
-  server: 217.60.63.233
+  server: 45.38.228.237
   port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -208,20 +212,22 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🇫🇷 法国 (France) 16 - xiaohe
   type: vless
-  server: 34.155.10.226
+  server: 104.21.50.143
   port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    headers:
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
 - name: 🇫🇷 法国 (France) 17 - xiaohe
   type: vless
-  server: 94.183.187.68
-  port: 8443
+  server: 95.182.82.191
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -234,19 +240,56 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 18 - xiaohe
   type: vless
-  server: 34.155.54.237
+  server: 217.60.252.115
   port: 443
-  uuid: 069a2bbd-3fc9-470f-a251-c836a96ed04a
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: SVT2WeXMIrumlh5VG1lbHN6YbqL7-u2iRkv1js8XEU4
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 19 - xiaohe
   type: vless
-  server: 217.60.37.28
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 20 - xiaohe
+  type: vless
+  server: 38.54.59.70
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇫🇷 法国 (France) 21 - xiaohe
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+  udp: true
+- name: 🇫🇷 法国 (France) 22 - xiaohe
+  type: vless
+  server: 217.60.63.206
   port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -258,7 +301,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇫🇷 法国 (France) 20 - xiaohe
+- name: 🇫🇷 法国 (France) 23 - xiaohe
   type: vmess
   server: 188.114.96.19
   port: 80
@@ -273,66 +316,24 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 21 - xiaohe
-  type: vless
-  server: 217.60.63.206
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇷 法国 (France) 22 - xiaohe
-  type: vless
-  server: 46.8.224.194
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇷 法国 (France) 23 - xiaohe
-  type: vless
-  server: 217.60.252.106
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 24 - xiaohe
   type: vless
-  server: 149.202.58.99
+  server: 172.67.206.254
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
   network: ws
   ws-opts:
-    path: /vws/
+    path: /stream/PANEL_ZEUS/5a26a30b00dc
     headers:
-      Host: bab-6.site
+      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
 - name: 🇫🇷 法国 (France) 25 - xiaohe
   type: vless
-  server: 217.60.37.35
-  port: 2053
+  server: 95.182.88.221
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -344,34 +345,8 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 26 - xiaohe
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 27 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 28 - xiaohe
   type: vmess
-  server: 141.95.65.9
+  server: 162.19.204.71
   port: 1234
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   alterId: 0
@@ -380,22 +355,52 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇫🇷 法国 (France) 29 - xiaohe
+- name: 🇫🇷 法国 (France) 27 - xiaohe
   type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  server: 85.155.225.63
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: firefox
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇫🇷 法国 (France) 28 - xiaohe
+  type: vless
+  server: 45.38.228.94
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇫🇷 法国 (France) 29 - xiaohe
+  type: vless
+  server: 217.60.37.34
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 30 - xiaohe
   type: vless
-  server: 38.54.59.70
-  port: 443
+  server: 217.60.63.14
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -408,60 +413,16 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇫🇷 法国 (France) 31 - xiaohe
   type: vless
-  server: 35.241.172.224
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇷 法国 (France) 32 - xiaohe
-  type: vless
-  server: 217.60.37.77
+  server: 54.37.136.194
   port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇷 法国 (France) 33 - xiaohe
-  type: vless
-  server: 46.8.224.250
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇫🇷 法国 (France) 34 - xiaohe
-  type: vless
-  server: 217.60.39.188
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -498,9 +459,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 29 - xiaohe
   - 🇫🇷 法国 (France) 30 - xiaohe
   - 🇫🇷 法国 (France) 31 - xiaohe
-  - 🇫🇷 法国 (France) 32 - xiaohe
-  - 🇫🇷 法国 (France) 33 - xiaohe
-  - 🇫🇷 法国 (France) 34 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -537,8 +495,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 29 - xiaohe
   - 🇫🇷 法国 (France) 30 - xiaohe
   - 🇫🇷 法国 (France) 31 - xiaohe
-  - 🇫🇷 法国 (France) 32 - xiaohe
-  - 🇫🇷 法国 (France) 33 - xiaohe
-  - 🇫🇷 法国 (France) 34 - xiaohe
 rules:
 - MATCH,PROXIES
