@@ -6,22 +6,20 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
   type: vless
-  server: 13.124.169.29
+  server: 34.64.149.137
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
   type: vless
-  server: 168.110.121.126
-  port: 8443
+  server: 141.164.35.4
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,19 +32,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 13.124.169.29
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: vless
-  server: 152.67.208.47
+  server: 152.67.210.234
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -60,7 +60,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
   type: vless
-  server: 168.110.112.196
+  server: 129.154.50.72
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -74,7 +74,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
   type: vless
-  server: 168.110.112.196
+  server: 168.107.40.4
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -88,19 +88,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
   type: vless
-  server: 34.64.149.137
+  server: 152.67.208.47
   port: 443
-  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
   type: vless
-  server: 152.67.198.36
+  server: 64.176.230.12
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -114,7 +116,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
   type: vless
-  server: 129.154.50.72
+  server: 43.108.46.150
   port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -128,8 +130,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
   type: vless
-  server: 110.10.178.240
-  port: 443
+  server: 168.110.121.126
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -142,8 +144,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 11 - xiaohe
   type: vless
-  server: 168.110.107.218
-  port: 443
+  server: 168.110.112.196
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -156,7 +158,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 12 - xiaohe
   type: vless
-  server: 43.155.134.179
+  server: 168.107.56.181
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -170,18 +172,6 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 13 - xiaohe
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
-  type: vless
   server: 146.56.119.205
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -194,6 +184,18 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 15 - xiaohe
   type: vless
   server: 54.180.141.246
@@ -210,7 +212,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
   type: vless
-  server: 54.180.141.246
+  server: 146.56.115.180
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -224,7 +226,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
   type: vless
-  server: 141.164.49.98
+  server: 140.238.30.217
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -238,7 +240,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 18 - xiaohe
   type: vless
-  server: 13.124.169.29
+  server: 152.69.229.110
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -252,8 +254,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 19 - xiaohe
   type: vless
-  server: 129.154.50.72
-  port: 8443
+  server: 54.180.141.246
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -266,22 +268,22 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 20 - xiaohe
   type: vless
-  server: 168.107.56.181
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 104.16.150.108
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ?ed=2560
     headers:
-      Host: ncy.760730.xyz
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇰🇷 韩国 (South Korea) 21 - xiaohe
   type: vless
-  server: 43.108.46.150
-  port: 8443
+  server: 158.247.224.240
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -293,69 +295,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 22 - xiaohe
-  type: vless
-  server: 110.10.178.240
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 23 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 24 - xiaohe
-  type: vless
-  server: 146.56.115.180
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 25 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 26 - xiaohe
-  type: vless
-  server: 47.80.61.55
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 27 - xiaohe
   type: vless
   server: 152.69.229.110
   port: 443
@@ -369,9 +308,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 28 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 23 - xiaohe
   type: vless
-  server: 152.67.210.234
+  server: 141.164.49.98
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -383,9 +322,73 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 24 - xiaohe
+  type: vless
+  server: 168.110.107.218
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 25 - xiaohe
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 26 - xiaohe
+  type: vless
+  server: 152.67.208.47
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 27 - xiaohe
+  type: vless
+  server: 110.10.178.240
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 28 - xiaohe
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 29 - xiaohe
   type: vless
-  server: 141.164.35.4
+  server: 13.124.169.29
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -399,8 +402,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 30 - xiaohe
   type: vless
-  server: 168.107.56.181
-  port: 443
+  server: 168.110.121.126
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -413,8 +416,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 31 - xiaohe
   type: vless
-  server: 168.107.40.4
-  port: 8443
+  server: 146.56.167.171
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -427,16 +430,16 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 32 - xiaohe
   type: vless
-  server: 34.64.149.137
-  port: 443
-  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 33 - xiaohe
   type: vless
   server: 168.107.14.233
@@ -452,15 +455,22 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 34 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vless
+  server: 129.154.50.72
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 35 - xiaohe
   type: vless
-  server: 47.80.63.243
+  server: 152.67.198.36
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -474,8 +484,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 36 - xiaohe
   type: vless
-  server: 158.247.224.240
-  port: 443
+  server: 168.110.112.196
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -488,7 +498,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 37 - xiaohe
   type: vless
-  server: 168.110.107.218
+  server: 168.107.14.233
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -502,21 +512,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 38 - xiaohe
   type: vless
-  server: 13.124.169.29
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: ncy.760730.xyz
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🇰🇷 韩国 (South Korea) 39 - xiaohe
   type: vless
-  server: 152.67.208.47
+  server: 13.124.169.29
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -530,7 +540,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 40 - xiaohe
   type: vless
-  server: 158.247.210.172
+  server: 43.155.134.179
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -544,7 +554,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 41 - xiaohe
   type: vless
-  server: 64.176.230.12
+  server: 168.107.56.181
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -558,32 +568,18 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 42 - xiaohe
   type: vless
-  server: 43.164.132.188
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 172.64.52.182
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ?ed=2560
     headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 43 - xiaohe
-  type: vless
-  server: 43.131.225.115
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -631,7 +627,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 40 - xiaohe
   - 🇰🇷 韩国 (South Korea) 41 - xiaohe
   - 🇰🇷 韩国 (South Korea) 42 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 43 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -679,6 +674,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 40 - xiaohe
   - 🇰🇷 韩国 (South Korea) 41 - xiaohe
   - 🇰🇷 韩国 (South Korea) 42 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 43 - xiaohe
 rules:
 - MATCH,PROXIES

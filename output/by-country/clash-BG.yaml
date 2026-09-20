@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 62.60.233.121
-  port: 443
+  server: 195.123.225.224
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 02 - xiaohe
   type: vless
-  server: 104.143.204.237
+  server: 91.215.154.88
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 03 - xiaohe
   type: vless
-  server: 185.39.204.17
+  server: 91.215.153.162
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -48,8 +48,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 04 - xiaohe
   type: vless
-  server: 91.247.36.169
-  port: 8443
+  server: 91.247.37.58
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -76,7 +76,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 06 - xiaohe
   type: vless
-  server: 83.147.241.197
+  server: 2.27.105.199
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -90,8 +90,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 07 - xiaohe
   type: vless
-  server: 195.123.225.224
-  port: 2053
+  server: 185.223.253.13
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -103,187 +103,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇧🇬 BG 08 - xiaohe
-  type: vless
-  server: 91.215.153.143
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 09 - xiaohe
-  type: vless
-  server: 94.72.140.210
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 10 - xiaohe
-  type: vless
-  server: 185.223.253.130
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 11 - xiaohe
-  type: vless
-  server: 185.223.253.115
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 12 - xiaohe
-  type: vless
-  server: 2.27.105.199
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 13 - xiaohe
-  type: vless
-  server: 185.232.171.125
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 14 - xiaohe
-  type: vless
-  server: 91.247.36.168
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 15 - xiaohe
-  type: vless
-  server: 78.128.99.216
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 16 - xiaohe
-  type: vless
-  server: 131.123.41.177
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.41.177
-- name: 🇧🇬 BG 17 - xiaohe
-  type: vless
-  server: 82.118.230.42
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 18 - xiaohe
-  type: vless
-  server: 185.181.208.241
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 19 - xiaohe
-  type: vless
-  server: 91.215.152.98
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 20 - xiaohe
-  type: vless
-  server: 91.247.37.58
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇧🇬 BG 21 - xiaohe
   type: vless
   server: 91.215.154.80
   port: 443
@@ -297,9 +116,23 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 22 - xiaohe
+- name: 🇧🇬 BG 09 - xiaohe
   type: vless
-  server: 91.215.153.162
+  server: 82.118.230.42
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 10 - xiaohe
+  type: vless
+  server: 91.247.36.168
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -311,9 +144,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 23 - xiaohe
+- name: 🇧🇬 BG 11 - xiaohe
   type: vless
-  server: 185.219.132.27
+  server: 185.223.253.130
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -325,9 +158,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 24 - xiaohe
+- name: 🇧🇬 BG 12 - xiaohe
   type: vless
-  server: 185.223.253.13
+  server: 185.223.253.115
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -339,9 +172,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 25 - xiaohe
+- name: 🇧🇬 BG 13 - xiaohe
   type: vless
-  server: 91.215.154.88
+  server: 83.147.241.197
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -353,7 +186,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 26 - xiaohe
+- name: 🇧🇬 BG 14 - xiaohe
+  type: vless
+  server: 91.215.152.98
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 15 - xiaohe
   type: vless
   server: 185.214.99.241
   port: 443
@@ -367,33 +214,104 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇧🇬 BG 27 - xiaohe
+- name: 🇧🇬 BG 16 - xiaohe
   type: vless
-  server: 192.145.31.5
+  server: 185.181.208.241
   port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 28 - xiaohe
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 17 - xiaohe
   type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  server: 91.215.153.143
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 29 - xiaohe
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 18 - xiaohe
   type: vless
-  server: 192.145.31.5
+  server: 91.247.36.169
   port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 19 - xiaohe
+  type: vless
+  server: 62.60.233.121
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 20 - xiaohe
+  type: vless
+  server: 185.39.204.17
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 21 - xiaohe
+  type: vless
+  server: 185.232.171.125
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇧🇬 BG 22 - xiaohe
+  type: vless
+  server: 78.128.99.216
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -421,13 +339,6 @@ proxy-groups:
   - 🇧🇬 BG 20 - xiaohe
   - 🇧🇬 BG 21 - xiaohe
   - 🇧🇬 BG 22 - xiaohe
-  - 🇧🇬 BG 23 - xiaohe
-  - 🇧🇬 BG 24 - xiaohe
-  - 🇧🇬 BG 25 - xiaohe
-  - 🇧🇬 BG 26 - xiaohe
-  - 🇧🇬 BG 27 - xiaohe
-  - 🇧🇬 BG 28 - xiaohe
-  - 🇧🇬 BG 29 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -455,12 +366,5 @@ proxy-groups:
   - 🇧🇬 BG 20 - xiaohe
   - 🇧🇬 BG 21 - xiaohe
   - 🇧🇬 BG 22 - xiaohe
-  - 🇧🇬 BG 23 - xiaohe
-  - 🇧🇬 BG 24 - xiaohe
-  - 🇧🇬 BG 25 - xiaohe
-  - 🇧🇬 BG 26 - xiaohe
-  - 🇧🇬 BG 27 - xiaohe
-  - 🇧🇬 BG 28 - xiaohe
-  - 🇧🇬 BG 29 - xiaohe
 rules:
 - MATCH,PROXIES
