@@ -20,22 +20,22 @@ proxies:
       Host: cfvvv-ev1.pages.dev
 - name: 🇮🇪 IE 02 - xiaohe
   type: vless
-  server: 54.229.164.147
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 162.159.160.139
+  port: 2083
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: cfvvv-ev1.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ncy.760730.xyz
+      Host: cfvvv-ev1.pages.dev
 - name: 🇮🇪 IE 03 - xiaohe
   type: vless
   server: 63.32.194.15
-  port: 8443
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -49,7 +49,21 @@ proxies:
 - name: 🇮🇪 IE 04 - xiaohe
   type: vless
   server: 63.32.194.15
-  port: 2053
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇪 IE 05 - xiaohe
+  type: vless
+  server: 54.229.164.147
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -69,6 +83,7 @@ proxy-groups:
   - 🇮🇪 IE 02 - xiaohe
   - 🇮🇪 IE 03 - xiaohe
   - 🇮🇪 IE 04 - xiaohe
+  - 🇮🇪 IE 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +93,6 @@ proxy-groups:
   - 🇮🇪 IE 02 - xiaohe
   - 🇮🇪 IE 03 - xiaohe
   - 🇮🇪 IE 04 - xiaohe
+  - 🇮🇪 IE 05 - xiaohe
 rules:
 - MATCH,PROXIES
