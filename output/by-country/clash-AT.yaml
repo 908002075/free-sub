@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - xiaohe
   type: vless
-  server: 89.58.61.12
-  port: 2053
+  server: 152.53.3.38
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -19,6 +19,34 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 02 - xiaohe
+  type: vless
+  server: 152.53.110.2
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇹 AT 03 - xiaohe
+  type: vless
+  server: 152.53.112.170
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇹 AT 04 - xiaohe
   type: vless
   server: 152.53.3.249
   port: 2096
@@ -32,37 +60,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇦🇹 AT 03 - xiaohe
-  type: vless
-  server: 152.53.3.38
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇹 AT 04 - xiaohe
-  type: vless
-  server: 152.53.110.45
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 - name: 🇦🇹 AT 05 - xiaohe
   type: vless
-  server: 85.137.167.53
+  server: 91.184.250.182
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,8 +76,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 06 - xiaohe
   type: vless
-  server: 152.53.67.83
-  port: 443
+  server: 144.31.1.178
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -90,8 +90,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 07 - xiaohe
   type: vless
-  server: 152.53.112.170
-  port: 2053
+  server: 193.124.57.253
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -118,8 +118,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 09 - xiaohe
   type: vless
-  server: 159.195.115.30
-  port: 443
+  server: 45.13.38.36
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -131,62 +131,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 10 - xiaohe
-  type: vless
-  server: 152.53.110.2
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇹 AT 11 - xiaohe
-  type: vless
-  server: 45.13.38.118
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇹 AT 12 - xiaohe
-  type: vless
-  server: 159.195.110.37
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇹 AT 13 - xiaohe
-  type: vless
-  server: 193.124.56.89
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇹 AT 14 - xiaohe
   type: vless
   server: 152.53.67.190
   port: 443
@@ -200,7 +144,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇦🇹 AT 15 - xiaohe
+- name: 🇦🇹 AT 11 - xiaohe
+  type: vless
+  server: 152.53.67.83
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇹 AT 12 - xiaohe
   type: vless
   server: 159.195.113.79
   port: 8443
@@ -214,21 +172,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇦🇹 AT 16 - xiaohe
-  type: vless
-  server: 152.53.111.169
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇦🇹 AT 17 - xiaohe
+- name: 🇦🇹 AT 13 - xiaohe
   type: vless
   server: 152.53.111.219
   port: 443
@@ -242,9 +186,65 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇦🇹 AT 14 - xiaohe
+  type: vless
+  server: 159.195.115.30
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇹 AT 15 - xiaohe
+  type: vless
+  server: 45.13.38.118
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇹 AT 16 - xiaohe
+  type: vless
+  server: 152.53.110.45
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇦🇹 AT 17 - xiaohe
+  type: vless
+  server: 109.172.8.48
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇦🇹 AT 18 - xiaohe
   type: vless
-  server: 92.61.71.112
+  server: 159.195.110.37
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -258,8 +258,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 19 - xiaohe
   type: vless
-  server: 91.184.248.209
-  port: 8443
+  server: 152.53.111.169
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -271,19 +271,12 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇦🇹 AT 20 - xiaohe
-  type: vless
-  server: 45.13.38.36
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
