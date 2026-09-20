@@ -5,205 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - xiaohe
-  type: ss
-  server: 82.38.31.39
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
-  type: vless
-  server: 78.141.239.13
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 04 - xiaohe
-  type: vless
-  server: 52.56.194.132
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 05 - xiaohe
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 129.121.95.159
-  network: ws
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-- name: 🇬🇧 英国 (United Kingdom) 06 - xiaohe
-  type: vless
-  server: 104.143.204.23
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 07 - xiaohe
-  type: vless
-  server: 188.119.149.172
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 08 - xiaohe
-  type: vless
-  server: 217.154.53.220
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 09 - xiaohe
-  type: vless
-  server: 18.134.196.127
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 10 - xiaohe
-  type: vless
-  server: 104.143.204.23
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 11 - xiaohe
-  type: vless
-  server: 212.134.174.181
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 12 - xiaohe
-  type: ss
-  server: 82.38.31.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 13 - xiaohe
-  type: vless
-  server: 52.56.194.238
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 14 - xiaohe
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 15 - xiaohe
-  type: vless
-  server: 148.227.170.234
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 16 - xiaohe
-  type: vless
-  server: 35.176.187.206
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 17 - xiaohe
   type: vless
   server: 78.141.206.87
   port: 8443
@@ -217,7 +18,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 18 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
   type: vless
   server: 77.68.16.137
   port: 443
@@ -231,14 +32,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 19 - xiaohe
-  type: ss
-  server: 134.65.63.122
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 9UzSnfj0gy1JNUBD2L3JgpLLlQieW6AfOJ9vptz0iks=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 20 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
   type: vless
   server: 35.178.212.67
   port: 443
@@ -252,9 +46,9 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 21 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 04 - xiaohe
   type: vless
-  server: 213.1.145.50
+  server: 217.154.53.220
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -266,7 +60,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 22 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 05 - xiaohe
+  type: ss
+  server: 134.65.63.122
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 9UzSnfj0gy1JNUBD2L3JgpLLlQieW6AfOJ9vptz0iks=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 06 - xiaohe
+  type: ss
+  server: 129.151.72.10
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 1W4F0fI81d/vwGCxDLCle+KbE+/Bb6uE7BP8Xjq1wH4=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 07 - xiaohe
   type: vless
   server: 87.106.52.3
   port: 443
@@ -280,7 +88,24 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 23 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 08 - xiaohe
+  type: ss
+  server: 158.173.221.214
+  port: 11001
+  cipher: chacha20-ietf-poly1305
+  password: c58d16e593d44f42
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 09 - xiaohe
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 10 - xiaohe
   type: vless
   server: 77.68.97.197
   port: 443
@@ -294,9 +119,90 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 24 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 11 - xiaohe
+  type: ss
+  server: 129.151.66.224
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: em25pV7s2EUkWhgDNcKJDRPTc8KBbjReVwoUdeqeQoU=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 12 - xiaohe
   type: vless
-  server: 193.124.130.225
+  server: 188.114.97.8
+  port: 443
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv
+  network: ws
+  ws-opts:
+    path: /vl/FuJlzLUhMmosE6ySAHYtJDUq6XlF?ed=2560
+    headers:
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
+- name: 🇬🇧 英国 (United Kingdom) 13 - xiaohe
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 129.121.95.159
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+- name: 🇬🇧 英国 (United Kingdom) 14 - xiaohe
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: TO6R63-KKChIGHQM2.VxZ0DDUq7tO7su0cDqF.WoRKeRs.DeV
+  network: ws
+  ws-opts:
+    path: /vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560
+    headers:
+      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+- name: 🇬🇧 英国 (United Kingdom) 15 - xiaohe
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 16 - xiaohe
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 17 - xiaohe
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 18 - xiaohe
+  type: vless
+  server: 132.145.46.142
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -308,10 +214,10 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 25 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 19 - xiaohe
   type: vless
-  server: 85.198.109.79
-  port: 2053
+  server: 188.119.149.172
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -322,7 +228,68 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 26 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 20 - xiaohe
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 21 - xiaohe
+  type: vless
+  server: 193.123.74.174
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 22 - xiaohe
+  type: vless
+  server: 78.141.239.13
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 23 - xiaohe
+  type: vless
+  server: 213.1.145.50
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 24 - xiaohe
+  type: ss
+  server: 51.38.71.51
+  port: 2083
+  cipher: 2022-blake3-aes-256-gcm
+  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 25 - xiaohe
   type: vmess
   server: 57.129.132.223
   port: 80
@@ -337,91 +304,21 @@ proxies:
     path: /vmess/
     headers:
       Host: google.com
+- name: 🇬🇧 英国 (United Kingdom) 26 - xiaohe
+  type: vless
+  server: 35.176.187.206
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇬🇧 英国 (United Kingdom) 27 - xiaohe
-  type: vless
-  server: 18.171.163.34
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 28 - xiaohe
-  type: vless
-  server: 62.171.228.235
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 29 - xiaohe
-  type: ss
-  server: 51.77.225.200
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 30 - xiaohe
-  type: vless
-  server: 132.145.46.142
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 31 - xiaohe
-  type: ss
-  server: 129.151.68.65
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 0N1dYtQFmHnwBeKv53o5MJDkRzbGYY1KkLXnaNkWo3o=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 32 - xiaohe
-  type: vless
-  server: 45.77.57.122
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 33 - xiaohe
-  type: vless
-  server: 149.102.157.131
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 34 - xiaohe
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -431,21 +328,21 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 35 - xiaohe
-  type: vless
-  server: 145.241.230.227
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+- name: 🇬🇧 英国 (United Kingdom) 28 - xiaohe
+  type: ss
+  server: 144.24.226.127
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: J7cXNcIXneBAD5a5hk6nXD68z5BcJtIMepdH646KjtI=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 36 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 29 - xiaohe
+  type: ss
+  server: 134.65.62.82
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: rqzhd6WZ9TbYEozhRmDCezccPKZBpFV5MrF1l6sxiIw=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 30 - xiaohe
   type: vless
   server: 87.106.65.110
   port: 443
@@ -459,21 +356,79 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇬🇧 英国 (United Kingdom) 37 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 31 - xiaohe
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 32 - xiaohe
+  type: ss
+  server: 129.151.77.36
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: JAIIG6N6KLuM33ZbMh0jk1fVcDM3qTVfUoXhQr6tiYM=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 33 - xiaohe
+  type: ss
+  server: 144.24.224.187
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 76nBYE3i8Fu1GL4LVCy25yAEe8eAPxphDp8lG/ibM9M=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 34 - xiaohe
+  type: ss
+  server: 129.151.68.58
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 2bp39sVjFj+ZRrbOrGn5VarlG04eijX2Oja3wDSBqZM=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 35 - xiaohe
   type: vless
-  server: 46.250.250.149
-  port: 2053
-  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  server: 212.134.174.181
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
-  servername: www.apple.com
-  client-fingerprint: random
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 36 - xiaohe
+  type: vless
+  server: 52.56.194.238
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 37 - xiaohe
+  type: vless
+  server: 52.56.194.132
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇬🇧 英国 (United Kingdom) 38 - xiaohe
   type: vless
-  server: 185.185.71.66
+  server: 45.77.57.122
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -486,15 +441,145 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇬🇧 英国 (United Kingdom) 39 - xiaohe
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 18.134.196.127
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 40 - xiaohe
+  type: ss
+  server: 129.151.68.65
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 0N1dYtQFmHnwBeKv53o5MJDkRzbGYY1KkLXnaNkWo3o=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 41 - xiaohe
+  type: vless
+  server: 18.171.163.34
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 42 - xiaohe
+  type: ss
+  server: 129.151.66.224
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: em25pV7s2EUkWhgDNcKJDRPTc8KBbjReVwoUdeqeQoU=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 43 - xiaohe
+  type: vless
+  server: 145.241.230.227
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 44 - xiaohe
+  type: vless
+  server: 85.198.109.79
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 45 - xiaohe
+  type: ss
+  server: 134.65.58.197
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: aKfETv3FnRLG5JBPKBZLrjX42g1rwmCWW9kPwL4jskI=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 46 - xiaohe
+  type: vless
+  server: 91.193.58.93
+  port: 443
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jamph131-1228.pages.dev
+  network: ws
+  ws-opts:
+    path: /Telegram-WangCai2🇨🇳
+    headers:
+      Host: jamph131-1228.pages.dev
+- name: 🇬🇧 英国 (United Kingdom) 47 - xiaohe
+  type: vless
+  server: 91.193.58.117
+  port: 443
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jamph131-1228.pages.dev
+  network: ws
+  ws-opts:
+    path: /Telegram-WangCai2🇨🇳
+    headers:
+      Host: jamph131-1228.pages.dev
+- name: 🇬🇧 英国 (United Kingdom) 48 - xiaohe
+  type: ss
+  server: 144.24.225.39
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: JXVCv3N78Ulr/V2Rsk0UN8DJEzD+yC0cbtWo9zjGTkg=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 49 - xiaohe
+  type: vless
+  server: 84.235.255.82
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇬🇧 英国 (United Kingdom) 50 - xiaohe
+  type: vless
+  server: 149.102.157.131
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -539,6 +624,17 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 37 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 38 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 39 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 40 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 41 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 42 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 43 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 44 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 45 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 46 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 47 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 48 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 49 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 50 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -583,5 +679,16 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 37 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 38 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 39 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 40 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 41 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 42 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 43 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 44 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 45 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 46 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 47 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 48 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 49 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 50 - xiaohe
 rules:
 - MATCH,PROXIES
