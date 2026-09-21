@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇮🇸 IS 01 - xiaohe
   type: vless
-  server: 194.247.182.120
-  port: 8443
+  server: 195.162.68.79
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇸 IS 02 - xiaohe
   type: vless
-  server: 195.162.68.79
-  port: 443
+  server: 194.247.182.120
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true

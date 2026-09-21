@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - xiaohe
   type: vless
-  server: 31.43.179.20
+  server: 31.43.179.8
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -15,7 +15,7 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 02 - xiaohe
@@ -34,61 +34,19 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇿 KZ 03 - xiaohe
   type: vless
-  server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: 206.223.240.239
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: ncy.760730.xyz
 - name: 🇰🇿 KZ 04 - xiaohe
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 05 - xiaohe
-  type: vless
-  server: 31.43.179.109
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 06 - xiaohe
-  type: vless
-  server: 31.43.179.137
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 07 - xiaohe
   type: vless
   server: 5.39.253.39
   port: 443
@@ -102,133 +60,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 08 - xiaohe
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 09 - xiaohe
-  type: vless
-  server: 31.43.179.36
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 10 - xiaohe
-  type: vless
-  server: 31.43.179.170
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 11 - xiaohe
-  type: vless
-  server: 31.43.179.87
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 12 - xiaohe
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 13 - xiaohe
-  type: vless
-  server: kz3.zuoai.cf
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 14 - xiaohe
-  type: vless
-  server: 176.12.77.95
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 15 - xiaohe
-  type: vless
-  server: 5.39.253.54
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 16 - xiaohe
-  type: vless
-  server: 38.180.207.241
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 17 - xiaohe
+- name: 🇰🇿 KZ 05 - xiaohe
   type: vless
   server: 193.47.43.197
   port: 443
@@ -242,63 +74,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 18 - xiaohe
-  type: vless
-  server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 19 - xiaohe
-  type: vless
-  server: 45.136.57.82
-  port: 2053
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 20 - xiaohe
-  type: vless
-  server: 2.27.131.10
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 21 - xiaohe
-  type: vless
-  server: 31.43.179.106
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 22 - xiaohe
+- name: 🇰🇿 KZ 06 - xiaohe
   type: vless
   server: 109.248.247.86
   port: 443
@@ -312,9 +88,79 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇿 KZ 23 - xiaohe
+- name: 🇰🇿 KZ 07 - xiaohe
   type: vless
   server: 31.43.179.25
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 08 - xiaohe
+  type: vless
+  server: 5.39.253.54
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇿 KZ 09 - xiaohe
+  type: vless
+  server: 31.43.179.87
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 10 - xiaohe
+  type: vless
+  server: 206.223.242.242
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇿 KZ 11 - xiaohe
+  type: vless
+  server: 38.180.207.241
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇿 KZ 12 - xiaohe
+  type: vless
+  server: 31.43.179.170
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -326,9 +172,37 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 24 - xiaohe
+- name: 🇰🇿 KZ 13 - xiaohe
   type: vless
-  server: 31.43.179.8
+  server: 31.43.179.137
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 14 - xiaohe
+  type: vless
+  server: 31.43.179.200
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 15 - xiaohe
+  type: vless
+  server: 31.43.179.20
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -360,15 +234,6 @@ proxy-groups:
   - 🇰🇿 KZ 13 - xiaohe
   - 🇰🇿 KZ 14 - xiaohe
   - 🇰🇿 KZ 15 - xiaohe
-  - 🇰🇿 KZ 16 - xiaohe
-  - 🇰🇿 KZ 17 - xiaohe
-  - 🇰🇿 KZ 18 - xiaohe
-  - 🇰🇿 KZ 19 - xiaohe
-  - 🇰🇿 KZ 20 - xiaohe
-  - 🇰🇿 KZ 21 - xiaohe
-  - 🇰🇿 KZ 22 - xiaohe
-  - 🇰🇿 KZ 23 - xiaohe
-  - 🇰🇿 KZ 24 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -389,14 +254,5 @@ proxy-groups:
   - 🇰🇿 KZ 13 - xiaohe
   - 🇰🇿 KZ 14 - xiaohe
   - 🇰🇿 KZ 15 - xiaohe
-  - 🇰🇿 KZ 16 - xiaohe
-  - 🇰🇿 KZ 17 - xiaohe
-  - 🇰🇿 KZ 18 - xiaohe
-  - 🇰🇿 KZ 19 - xiaohe
-  - 🇰🇿 KZ 20 - xiaohe
-  - 🇰🇿 KZ 21 - xiaohe
-  - 🇰🇿 KZ 22 - xiaohe
-  - 🇰🇿 KZ 23 - xiaohe
-  - 🇰🇿 KZ 24 - xiaohe
 rules:
 - MATCH,PROXIES
