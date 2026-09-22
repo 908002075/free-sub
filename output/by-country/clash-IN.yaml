@@ -5,23 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 64.227.174.213
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      Host: ''
+      Host: ncy.760730.xyz
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   type: vless
-  server: 170.187.237.10
+  server: 167.71.238.69
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -35,36 +34,34 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇳 印度 (India) 03 - xiaohe
   type: vless
-  server: 168.144.154.79
+  server: 139.84.135.130
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ncy.760730.xyz
+      Host: shuma.ccwu.cc
 - name: 🇮🇳 印度 (India) 04 - xiaohe
   type: vless
-  server: 168.144.155.167
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 05 - xiaohe
   type: vless
-  server: 64.227.174.213
-  port: 2053
+  server: 13.126.206.240
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -77,19 +74,21 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇳 印度 (India) 06 - xiaohe
   type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  server: 5.253.28.113
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: random
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇮🇳 印度 (India) 07 - xiaohe
   type: vless
-  server: 65.2.215.47
+  server: 172.237.36.109
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -103,7 +102,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇳 印度 (India) 08 - xiaohe
   type: vless
-  server: 168.144.68.202
+  server: 64.227.164.129
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -145,115 +144,17 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇳 印度 (India) 11 - xiaohe
   type: vless
-  server: 172.67.208.1
+  server: 34.47.245.203
   port: 443
-  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: odd-violet-5440.asdgrweeee13.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: odd-violet-5440.asdgrweeee13.workers.dev
-- name: 🇮🇳 印度 (India) 12 - xiaohe
-  type: vless
-  server: 104.21.69.118
-  port: 443
-  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: odd-violet-5440.asdgrweeee13.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: odd-violet-5440.asdgrweeee13.workers.dev
-- name: 🇮🇳 印度 (India) 13 - xiaohe
-  type: vless
-  server: 64.227.174.213
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 14 - xiaohe
-  type: vless
-  server: 65.2.215.47
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 15 - xiaohe
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  uuid: 3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
+    public-key: dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 16 - xiaohe
-  type: vless
-  server: 170.187.237.198
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 17 - xiaohe
-  type: vless
-  server: 172.237.36.109
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 18 - xiaohe
-  type: vless
-  server: 13.126.206.240
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 19 - xiaohe
+- name: 🇮🇳 印度 (India) 12 - xiaohe
   type: vless
   server: 13.200.106.232
   port: 443
@@ -267,21 +168,7 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇮🇳 印度 (India) 20 - xiaohe
-  type: vless
-  server: 167.71.238.69
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 21 - xiaohe
+- name: 🇮🇳 印度 (India) 13 - xiaohe
   type: vless
   server: 13.200.106.232
   port: 443
@@ -295,21 +182,21 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 22 - xiaohe
+- name: 🇮🇳 印度 (India) 14 - xiaohe
   type: vless
-  server: 104.21.69.118
+  server: 168.144.68.202
   port: 443
-  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: odd-violet-5440.asdgrweeee13.workers.dev
+  servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /sync
+    path: /
     headers:
-      Host: odd-violet-5440.asdgrweeee13.workers.dev
-- name: 🇮🇳 印度 (India) 23 - xiaohe
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 15 - xiaohe
   type: vless
   server: 20.219.46.208
   port: 8443
@@ -323,102 +210,7 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 24 - xiaohe
-  type: vless
-  server: 64.227.164.129
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 25 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 26 - xiaohe
-  type: vless
-  server: 5.253.28.113
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 27 - xiaohe
-  type: vless
-  server: 34.47.245.203
-  port: 443
-  uuid: 3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 28 - xiaohe
-  type: vless
-  server: 157.20.27.35
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 29 - xiaohe
-  type: vless
-  server: 34.93.188.70
-  port: 443
-  uuid: 5004e3d7-a9bd-4a7c-a6d5-58aa5e1be9ed
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 97C6O3repofpoaJzvu1d4o7amhJGA8hF_yJls7SNIgU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 30 - xiaohe
-  type: vless
-  server: 5.253.29.83
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 31 - xiaohe
+- name: 🇮🇳 印度 (India) 16 - xiaohe
   type: vless
   server: 52.66.200.252
   port: 443
@@ -432,9 +224,149 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
-- name: 🇮🇳 印度 (India) 32 - xiaohe
+- name: 🇮🇳 印度 (India) 17 - xiaohe
+  type: vless
+  server: 168.144.155.167
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 18 - xiaohe
+  type: vless
+  server: 170.187.237.10
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 19 - xiaohe
+  type: vless
+  server: 65.2.215.47
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 20 - xiaohe
+  type: vless
+  server: 170.187.237.198
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 21 - xiaohe
+  type: vless
+  server: 64.227.174.213
+  port: 2053
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 22 - xiaohe
+  type: vless
+  server: 5.253.30.225
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 23 - xiaohe
   type: vless
   server: 172.236.187.52
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 24 - xiaohe
+  type: vless
+  server: 65.2.215.47
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 25 - xiaohe
+  type: vless
+  server: 157.20.27.35
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 26 - xiaohe
+  type: vless
+  server: 168.144.154.79
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇮🇳 印度 (India) 27 - xiaohe
+  type: vless
+  server: 5.253.28.234
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -478,11 +410,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 25 - xiaohe
   - 🇮🇳 印度 (India) 26 - xiaohe
   - 🇮🇳 印度 (India) 27 - xiaohe
-  - 🇮🇳 印度 (India) 28 - xiaohe
-  - 🇮🇳 印度 (India) 29 - xiaohe
-  - 🇮🇳 印度 (India) 30 - xiaohe
-  - 🇮🇳 印度 (India) 31 - xiaohe
-  - 🇮🇳 印度 (India) 32 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -515,10 +442,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 25 - xiaohe
   - 🇮🇳 印度 (India) 26 - xiaohe
   - 🇮🇳 印度 (India) 27 - xiaohe
-  - 🇮🇳 印度 (India) 28 - xiaohe
-  - 🇮🇳 印度 (India) 29 - xiaohe
-  - 🇮🇳 印度 (India) 30 - xiaohe
-  - 🇮🇳 印度 (India) 31 - xiaohe
-  - 🇮🇳 印度 (India) 32 - xiaohe
 rules:
 - MATCH,PROXIES
