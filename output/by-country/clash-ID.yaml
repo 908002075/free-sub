@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇩 ID 01 - xiaohe
   type: vless
-  server: 103.169.206.131
+  server: 172.232.236.252
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇩 ID 02 - xiaohe
   type: vless
-  server: 43.229.254.71
+  server: 202.155.95.132
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -41,7 +41,7 @@ proxies:
   udp: true
 - name: 🇮🇩 ID 04 - xiaohe
   type: vless
-  server: 172.232.240.6
+  server: 103.169.206.131
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -55,7 +55,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇩 ID 05 - xiaohe
   type: vless
-  server: 202.155.95.132
+  server: 172.232.240.6
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -69,7 +69,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇮🇩 ID 06 - xiaohe
   type: vless
-  server: 172.232.236.252
+  server: 43.229.254.71
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
