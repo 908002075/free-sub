@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇨🇾 CY 02 - xiaohe
   type: vless
   server: 194.76.154.31
@@ -27,19 +27,35 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇨🇾 CY 03 - xiaohe
   type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  server: 5.253.30.225
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇾 CY 04 - xiaohe
+  type: vless
+  server: 5.253.29.83
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +64,7 @@ proxy-groups:
   - 🇨🇾 CY 01 - xiaohe
   - 🇨🇾 CY 02 - xiaohe
   - 🇨🇾 CY 03 - xiaohe
+  - 🇨🇾 CY 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,5 +73,6 @@ proxy-groups:
   - 🇨🇾 CY 01 - xiaohe
   - 🇨🇾 CY 02 - xiaohe
   - 🇨🇾 CY 03 - xiaohe
+  - 🇨🇾 CY 04 - xiaohe
 rules:
 - MATCH,PROXIES
