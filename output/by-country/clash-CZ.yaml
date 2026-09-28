@@ -1,0 +1,130 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇨🇿 CZ 01 - xiaohe
+  type: vless
+  server: 116.202.132.205
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 02 - xiaohe
+  type: vless
+  server: 162.159.153.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rayan-007.maxima.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
+- name: 🇨🇿 CZ 03 - xiaohe
+  type: vless
+  server: 116.202.8.39
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 04 - xiaohe
+  type: vless
+  server: 104.21.81.162
+  port: 443
+  uuid: 20836693-ea23-4f40-a1e7-48a6da897917
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: netra-85a0ca.shoameni19.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui
+    headers:
+      Host: netra-85a0ca.shoameni19.workers.dev
+- name: 🇨🇿 CZ 05 - xiaohe
+  type: vless
+  server: 116.202.25.67
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 06 - xiaohe
+  type: vless
+  server: 116.202.16.211
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 07 - xiaohe
+  type: vless
+  server: 138.201.194.249
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇨🇿 CZ 01 - xiaohe
+  - 🇨🇿 CZ 02 - xiaohe
+  - 🇨🇿 CZ 03 - xiaohe
+  - 🇨🇿 CZ 04 - xiaohe
+  - 🇨🇿 CZ 05 - xiaohe
+  - 🇨🇿 CZ 06 - xiaohe
+  - 🇨🇿 CZ 07 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇨🇿 CZ 01 - xiaohe
+  - 🇨🇿 CZ 02 - xiaohe
+  - 🇨🇿 CZ 03 - xiaohe
+  - 🇨🇿 CZ 04 - xiaohe
+  - 🇨🇿 CZ 05 - xiaohe
+  - 🇨🇿 CZ 06 - xiaohe
+  - 🇨🇿 CZ 07 - xiaohe
+rules:
+- MATCH,PROXIES
