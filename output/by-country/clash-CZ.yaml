@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 193.124.56.89
-  port: 443
+  server: 185.253.46.105
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 193.162.47.60
-  port: 443
+  server: 193.124.56.100
+  port: 2087
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 136.243.86.79
-  port: 2053
+  server: 46.28.70.117
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -62,7 +62,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 05 - xiaohe
   type: vless
-  server: 195.123.244.230
+  server: 188.214.35.66
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -76,8 +76,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 06 - xiaohe
   type: vless
-  server: 185.253.46.105
-  port: 8443
+  server: 193.162.47.60
+  port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -90,7 +90,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 07 - xiaohe
   type: vless
-  server: 85.137.166.6
+  server: 195.123.244.230
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -104,8 +104,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 08 - xiaohe
   type: vless
-  server: 91.199.147.41
-  port: 443
+  server: 92.61.71.90
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -117,34 +117,6 @@ proxies:
     headers:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 09 - xiaohe
-  type: vless
-  server: 188.214.35.66
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 10 - xiaohe
-  type: vless
-  server: 46.28.70.117
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 11 - xiaohe
   type: vless
   server: 193.124.56.100
   port: 8443
@@ -158,9 +130,37 @@ proxies:
     path: /
     headers:
       Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 10 - xiaohe
+  type: vless
+  server: 87.236.146.43
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇨🇿 CZ 11 - xiaohe
+  type: vless
+  server: 109.172.9.242
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 12 - xiaohe
   type: vless
-  server: 91.199.160.46
+  server: 178.208.91.177
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -174,22 +174,8 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇨🇿 CZ 13 - xiaohe
   type: vless
-  server: 91.199.160.38
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇨🇿 CZ 14 - xiaohe
-  type: vless
-  server: 178.208.91.177
-  port: 443
+  server: 136.243.86.79
+  port: 2053
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -218,7 +204,6 @@ proxy-groups:
   - 🇨🇿 CZ 11 - xiaohe
   - 🇨🇿 CZ 12 - xiaohe
   - 🇨🇿 CZ 13 - xiaohe
-  - 🇨🇿 CZ 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -237,6 +222,5 @@ proxy-groups:
   - 🇨🇿 CZ 11 - xiaohe
   - 🇨🇿 CZ 12 - xiaohe
   - 🇨🇿 CZ 13 - xiaohe
-  - 🇨🇿 CZ 14 - xiaohe
 rules:
 - MATCH,PROXIES
