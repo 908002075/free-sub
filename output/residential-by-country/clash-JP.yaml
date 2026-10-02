@@ -6,6 +6,34 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   type: vless
+  server: mfa.gov.ua
+  port: 2083
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJTAVEOVgoIUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAQZV04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  type: vless
+  server: jobsdb.com
+  port: 2096
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRVAVAOXAIKUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAUdXk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  type: vless
   server: saas.sin.fan
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -18,21 +46,7 @@ proxies:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghWCVAPUwMJVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAgbX04=
     headers:
       Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  type: vless
-  server: images.chesscomfiles.com
-  port: 8443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdSBVsGUwAJVx9dSFJbVU8DD1xCFQEWEVZFWRoMAAQYXk4=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   type: vless
   server: cdn.555586.xyz
   port: 8443
@@ -46,10 +60,10 @@ proxies:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZUBFQAUQsPVh9dSFJbVU8DD1xCFQEWEVZFWRoMAAYYUk4=
     headers:
       Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   type: vless
-  server: mfa.gov.ua
-  port: 2083
+  server: images.chesscomfiles.com
+  port: 8443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
   tls: true
@@ -57,7 +71,21 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJTAVEOVgoIUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAQZV04=
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdSBVsGUwAJVx9dSFJbVU8DD1xCFQEWEVZFWRoMAAQYXk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
+  type: vless
+  server: www.sage.com
+  port: 8443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJRA1MBVwcIUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAQeVk4=
     headers:
       Host: ncy.760730.xyz
 proxy-groups:
@@ -69,6 +97,8 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +108,7 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

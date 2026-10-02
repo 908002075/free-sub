@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇭🇷 HR 01 - xiaohe
   type: vless
-  server: cdn.fiatnorm.us.kg
-  port: 2083
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdSCVcOVQYNUx9dSFJbVU8DD1xCFQEWEVZFWRoMBQQeGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇭🇷 HR 02 - xiaohe
-  type: vless
   server: mfa.gov.ua
   port: 2083
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -30,6 +16,20 @@ proxies:
   network: ws
   ws-opts:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVfCFcOUQsAVR9dSFJbVU8DD1xCFQEWEVZFWRoMBQQeGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇭🇷 HR 02 - xiaohe
+  type: vless
+  server: cdn.fiatnorm.us.kg
+  port: 2083
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdSCVcOVQYNUx9dSFJbVU8DD1xCFQEWEVZFWRoMBQQeGw==
     headers:
       Host: ncy.760730.xyz
 proxy-groups:
