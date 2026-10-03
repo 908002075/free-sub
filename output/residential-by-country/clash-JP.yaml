@@ -15,7 +15,147 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVVBFEPUAEOUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAQUU04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  type: vless
+  server: dianomi.com
+  port: 2096
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJVBFICVwMAUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAccUE4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  type: vless
+  server: mfa.gov.ua
+  port: 2083
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZQAlEAVgoKVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAYaUU4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  type: vless
+  server: email.lg.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVXBloHVgIIVB9dSFJbVU8DD1xCFQEWEVZFWRoMAAgbVE4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  type: vless
+  server: openai.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXglQCVoDXAMLXB9dSFJbVU8DD1xCFQEWEVZFWRoMAAkfV04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
+  type: vless
+  server: serviceshub.samsclub.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVQBlsCUQYMUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAUfUE4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
+  type: vless
+  server: icook.hk
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghXAVUAUwoLVB9dSFJbVU8DD1xCFQEWEVZFWRoMAAcbX04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+  type: vless
+  server: www.shopify.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZeCFIOVgEAUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAQcV04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  type: vless
+  server: icook.hk
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdTA1oBVAMOVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAcVVk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  type: vless
+  server: jobsdb.com
+  port: 2096
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXRF1XBh8JQQdYA0QWClRGGhsXQldfFRsMBhwNVUQ=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
+  type: vless
+  server: cdn.fiatnorm.us.kg
+  port: 2083
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgBQBFoDUgYAVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAgYVU4=
     headers:
       Host: ncy.760730.xyz
 proxy-groups:
@@ -24,11 +164,31 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
