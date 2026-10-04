@@ -6,77 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   type: vless
-  server: 60.248.219.54
-  port: 443
-  uuid: 06e177f7-240d-4687-bd85-235505801a5e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.54
-- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  type: vless
-  server: dianomi.com
-  port: 2096
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVVBFEPUAEOUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAQUU04=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  type: vless
-  server: cdn.fiatnorm.us.kg
-  port: 2083
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZWCFUDVwIBXB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
-  type: vless
-  server: www.shopify.com
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZeCFIOVgEAUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAQcV04=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
-  type: vless
-  server: mfa.gov.ua
-  port: 2083
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVQCVoFVwAOVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAIYX04=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  type: vless
-  server: 172.66.152.4
+  server: argo6.5671234.xyz
   port: 443
   uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
   udp: true
@@ -88,130 +18,21 @@ proxies:
     path: /e8e2cecb6188f7fb
     headers:
       Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vless
-  server: 118.167.235.241
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
-  type: vless
-  server: dianomi.com
-  port: 2096
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRUBFsHUgINUh9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  type: vless
-  server: 172.64.154.8
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
-  type: vless
-  server: www.5h.com
+  server: 59.125.69.23
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgBTB1UHXQYAVB9dSFJbVU8DD1xCFQEWEVZFWRoMAAgbVU4=
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  type: vless
-  server: www.shopify.com
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRTBVIHXAcLVR9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 12 (家宽) - xiaohe
-  type: vless
-  server: dianomi.com
-  port: 2096
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJVBFICVwMAUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAccUE4=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 13 (家宽) - xiaohe
-  type: vless
-  server: jobsdb.com
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZTAlMPVQsBVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAgcV04=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 14 (家宽) - xiaohe
-  type: vless
-  server: serviceshub.samsclub.com
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgNVAFMHUQANUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAcUVU4=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 15 (家宽) - xiaohe
-  type: vless
-  server: cdn.fiatnorm.us.kg
-  port: 2083
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgBQBFoDUgYAVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAgYVU4=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 16 (家宽) - xiaohe
+      Host: ty986gfazs.cainiaohub.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -225,47 +46,35 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.180.20.108
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  type: vless
+  server: 118.167.235.241
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 12 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 13 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 14 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 15 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 16 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 12 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 13 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 14 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 15 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 16 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
