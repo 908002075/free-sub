@@ -6,20 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
-  server: 172.64.88.251
-  port: 8880
-  uuid: 7e3cd2f1-0de5-4717-9002-64d8597bc577
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: dry-credit-fc26.203-d8c.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  type: vless
-  server: mfa.gov.ua
+  server: cdn.fiatnorm.us.kg
   port: 2083
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -28,12 +15,12 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgBfBFoGXQoLXR9dSFJbVU8DD1xCFQEWEVZFWRoMAAYeVE4=
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXglXAlYCVAEAUx9dSFJbVU8DD1xCFQEWEVZFWRoMAAYdUk4=
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   type: vless
-  server: serviceshub.samsclub.com
+  server: www.shopify.com
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -42,7 +29,49 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgNVAFMHUQANUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAcUVU4=
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRTBVIHXAcLVR9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  type: vless
+  server: openai.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZQCVYGXQsBUR9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  type: vless
+  server: cdn.fiatnorm.us.kg
+  port: 2083
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZWCFUDVwIBXB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  type: vless
+  server: jobsdb.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgNRBlYBXAMOXB9dSFJbVU8DD1xCFQEWEVZFWRoMAAccVE4=
     headers:
       Host: ncy.760730.xyz
 proxy-groups:
@@ -53,6 +82,8 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -61,5 +92,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
