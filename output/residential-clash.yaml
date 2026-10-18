@@ -4,104 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  type: vless
-  server: hinet1.2yly.com
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  type: vless
-  server: openai.com
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJeBVUGXQoOUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  type: vless
-  server: www.mfyx.cn
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRfCVQDUgEMVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAQbV04=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  type: vless
-  server: 60.248.219.78
-  port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  type: vmess
-  server: 183.109.131.75
-  port: 20086
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
-  type: vless
-  server: p.etime.vip
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghRBlYDUgYBUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
-  type: vless
-  server: cf.nyanya.moe
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdWCFAHVQQJUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAYaX04=
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   type: vless
   server: linear.app
   port: 443
@@ -115,7 +18,21 @@ proxies:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgNTAVsEVAsOVB9dSFJbVU8DD1xCFQEWEVZFWRoMAAgUU04=
     headers:
       Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  type: vless
+  server: cf.nyanya.moe
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdWCFAHVQQJUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAYaX04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   type: vless
   server: spring.io
   port: 443
@@ -129,21 +46,7 @@ proxies:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghVAFMGXQQPUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAkVUk4=
     headers:
       Host: ncy.760730.xyz
-- name: 🇳🇱 荷兰 (Netherlands) 10 (家宽) - xiaohe
-  type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rayan-007.maxima.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-- name: 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   type: vless
   server: uspto.gov
   port: 443
@@ -157,9 +60,9 @@ proxies:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVUBVIGXQMPUx9dSFJbVU8DD1xCFQEWEVZFWRoMAAUbXk4=
     headers:
       Host: ncy.760730.xyz
-- name: 🇯🇵 日本 (Japan) 12 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   type: vless
-  server: cdn.204910.best
+  server: op.chinwa.eu.cc
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -168,7 +71,215 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXglfAloDUgoJXR9dSFJbVU8DD1xCFQEWEVZFWRoMAAUZUU4=
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgZRCFoEVAIAUx9dSFJbVU8DD1xCFQEWEVZFWRoMAAIfUU4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
+  type: vless
+  server: www.sloomb.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVVBloOVwEPXR9dSFJbVU8DD1xCFQEWEVZFWRoMAAUbXk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
+  type: vless
+  server: www.sloomb.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXglfBlsHVAUIUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAIUVk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
+  type: vless
+  server: www.leics.police.uk
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdSAFUDXQEPVx9dSFJbVU8DD1xCFQEWEVZFWRoMAAcYUk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
+  type: vless
+  server: p.etime.vip
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghRBlYDUgYBUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  type: vless
+  server: www.shopify.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXglXAVEHXAELUR9dSFJbVU8DD1xCFQEWEVZFWRoMAAYfXk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghXAFsBVAALXB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
+  type: vless
+  server: www.leics.police.uk
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdUBlYAXQQMUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 13 (家宽) - xiaohe
+  type: vless
+  server: spring.io
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghUB1MAVQcOVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAgaU04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 14 (家宽) - xiaohe
+  type: vless
+  server: 60.248.219.54
+  port: 443
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 60.248.219.54
+- name: 🇯🇵 日本 (Japan) 15 (家宽) - xiaohe
+  type: vless
+  server: cdn.ctn32.us.kg
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdfCFoOUAMPVx9dSFJbVU8DD1xCFQEWEVZFWRoMAAUYUE4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 16 (家宽) - xiaohe
+  type: vless
+  server: www.shopify.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVUCFsGXAYBUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇯🇵 日本 (Japan) 17 (家宽) - xiaohe
+  type: vless
+  server: www.mfyx.cn
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdQCVEHUAoOUB9dSFJbVU8DD1xCFQEWEVZFWRoMAAIdX04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 18 (家宽) - xiaohe
+  type: vless
+  server: www.mfyx.cn
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRfCVQDUgEMVR9dSFJbVU8DD1xCFQEWEVZFWRoMAAQbV04=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 19 (家宽) - xiaohe
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: qq
+- name: 🇯🇵 日本 (Japan) 20 (家宽) - xiaohe
+  type: vless
+  server: www.dbs.com.sg
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgBTB1cDUQUJVx9dSFJbVU8DD1xCFQEWEVZFWRoMAAMVUE4=
     headers:
       Host: ncy.760730.xyz
 proxy-groups:
@@ -176,34 +287,50 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
-  - 🇳🇱 荷兰 (Netherlands) 10 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 12 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 13 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 14 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 15 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 16 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 17 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 18 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 19 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 20 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 07 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 08 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
-  - 🇳🇱 荷兰 (Netherlands) 10 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 12 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 13 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 14 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 15 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 16 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 17 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 18 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 19 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 20 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
