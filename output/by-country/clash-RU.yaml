@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: saas.sin.fan
+  server: 185.141.227.223
   port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ncy.760730.xyz
+  servername: z1q3pv4g78.rucdncomp.pro
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgdeA1AFXAYNUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAYbV04=
+    path: /useraction/events/b892639b7195/
     headers:
-      Host: ncy.760730.xyz
+      Host: z1q3pv4g78.rucdncomp.pro
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: ss
   server: 130.49.189.158
