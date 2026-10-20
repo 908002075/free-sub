@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
+  server: p.etime.vip
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghRBlYDUgYBUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  type: vless
   server: securecircle.com
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
@@ -16,20 +30,6 @@ proxies:
   network: ws
   ws-opts:
     path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgRXB1QDXQINUh9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
-    headers:
-      Host: ncy.760730.xyz
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  type: vless
-  server: www.carousell.sg
-  port: 443
-  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ncy.760730.xyz
-  network: ws
-  ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVRBVcFVQoOUB9dSFJbVU8DD1xCFQEWEVZFWRoMAAkUXk4=
     headers:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
@@ -48,7 +48,7 @@ proxies:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
   type: vless
-  server: cf.877774.xyz
+  server: www.sloomb.com
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -57,12 +57,12 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghXAFsBVAALXB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVVBloOVwEPXR9dSFJbVU8DD1xCFQEWEVZFWRoMAAUbXk4=
     headers:
       Host: ncy.760730.xyz
 - name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
   type: vless
-  server: spring.io
+  server: www.carousell.sg
   port: 443
   uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
   udp: true
@@ -71,7 +71,21 @@ proxies:
   servername: ncy.760730.xyz
   network: ws
   ws-opts:
-    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXghVAFMGXQQPUh9dSFJbVU8DD1xCFQEWEVZFWRoMAAkVUk4=
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgVRBVcFVQoOUB9dSFJbVU8DD1xCFQEWEVZFWRoMAAkUXk4=
+    headers:
+      Host: ncy.760730.xyz
+- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
+  type: vless
+  server: openai.com
+  port: 443
+  uuid: d1287528-a967-4a97-8610-f3e01f1b6d38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ncy.760730.xyz
+  network: ws
+  ws-opts:
+    path: /video/HxNGQUdQEAIPEkpCRw8YQ0xESEpYUF1IRAlHRkEIE04UFFJLF0ZdSlMXCBpbEVcUGw9cDkpDQ1lbVBIXREUVXgJeBVUGXQoOUB9dSFJbVU8DD1xCFQEWEVZFWRoMCAkYGw==
     headers:
       Host: ncy.760730.xyz
 proxy-groups:
@@ -84,6 +98,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -94,5 +109,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
